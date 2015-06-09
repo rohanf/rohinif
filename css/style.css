@@ -26,7 +26,7 @@
 		4-1-2. CAROUSEL CONTROL
 
 	4-2. ABOUT US
-	4-3. CONTRIBUTION 
+	4-3. CONTRIBUTION
 	4-4. PET PROFILE
 	4-5. RECENTS EVENTS
 	4-6. ADOPT PETS
@@ -420,10 +420,8 @@ a .icon-inside:hover {
 .adopt-pets .overlay {
   padding: 120px 0 75px;
 }
+.success-stories .overlay,
 .success-stories .overlay {
-  padding: 120px 0 90px;
-}
-.skype-training .overlay {
   padding: 120px 0 90px;
 }
 .footer-body {
@@ -516,15 +514,9 @@ article .title-text {
   width: 100%;
   z-index: 2;
   background: rgba(0, 0, 0, 0.7);
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .hover-content .link-popup {
   position: relative;
@@ -718,15 +710,9 @@ article .title-text {
   bottom: 0;
   left: 0;
   right: 0;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 .slider-content .title-text {
@@ -766,9 +752,7 @@ article .title-text {
 .home .owl-nav [class*="owl-"] {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   margin: 0;
   border-radius: 0;
   font-family: "anima-icon";
@@ -976,15 +960,9 @@ article .title-text {
   height: 100%;
 }
 .event-timing ul li {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background: #f6e25d;
   font-size: 11px;
   margin-bottom: 2px;
@@ -1008,6 +986,9 @@ article .title-text {
 */
 .adopt-pets {
   background: url(../images/adopt-pet-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 .adopt-pets .row-item {
@@ -1055,16 +1036,12 @@ article .title-text {
     opacity: 0;
   }
   .team-members .each-member:hover .hover-profile {
-    -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
   .hover-profile {
     position: absolute;
-    -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 0;
     transition: all 0.4s;
     top: -30px;
@@ -1178,6 +1155,9 @@ article .title-text {
 */
 .success-stories {
   background: url(../images/success-stories-bg-02.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 .success-stories .title-text {
@@ -1224,7 +1204,7 @@ article .title-text {
   margin-top: 60px;
   color: #fff;
 }
-.success-stories span {
+.skype-training span {
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -1242,7 +1222,7 @@ article .title-text {
 |----------------------------------------------------------------------------
 */
 .pets-gallery {
-  background: #FAFAFA;
+  background: #fafafa;
 }
 .pets-gallery .mix {
   display: none;
@@ -1280,9 +1260,7 @@ article .title-text {
   transition: all 0.9s ease-in-out;
 }
 .gallery-item:hover img {
-  -webkit-transform: scale(1.1) rotate(4deg);
-      -ms-transform: scale(1.1) rotate(4deg);
-          transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
 }
 .hover-gallery .icon-inside {
   margin-right: 10px;
@@ -1419,20 +1397,20 @@ article .title-text {
 .success-msg,
 .error-msg {
   font-size: 12px;
-  color: #fff;
+  color: #ffffff;
   display: none;
   padding: 6px;
 }
 .success-msg i,
 .error-msg i {
-display: inline-block;
-padding: 0 6px;
+  display: inline-block;
+  padding: 0 6px;
 }
 .success-msg {
-background-color: #1e8029;
+  background-color: #1e8029;
 }
 .error-msg {
-background-color: #73171f;
+  background-color: #73171f;
 }
 /*
 |----------------------------------------------------------------------------
@@ -1478,14 +1456,14 @@ background-color: #73171f;
   color: #fff;
   width: 100%;
 }
+.address-block span {
+  display: block;
+  line-height: 2;
+}
 .address-block p {
   color: #fff;
   margin-bottom: 0;
   font-size: 14px;
-}
-.address-block span {
-  display: block;
-  line-height: 2;
 }
 .address-block p strong {
   font-family: Oswald, sans-serif;
@@ -1612,7 +1590,6 @@ background-color: #73171f;
 /********* FOOTER FOOT *********/
 .footer-foot {
   text-align: center;
-  // border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding: 30px 0 15px;
 }
 .footer-foot p,
@@ -1636,7 +1613,6 @@ background-color: #73171f;
 .page-head {
   background: #1e414e;
   margin: 0;
-  padding: 80px 0 50px;
   padding: 250px 0 50px;
 }
 .page-head .section-header {
