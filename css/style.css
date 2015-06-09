@@ -569,7 +569,8 @@ article .title-text {
     margin-top: 35px;
   }
   .navbar-home .navbar-contact li.mob a,
-  .navbar-home .navbar-contact li.email a {
+  .navbar-home .navbar-contact li.email a,
+  .navbar-home .navbar-contact li.facebook a {
     color: #a1c4d3;
   }
   .navbar-home .navbar-nav {
@@ -623,11 +624,13 @@ article .title-text {
   font-size: 12px;
 }
 .navbar-contact li.mob a,
-.navbar-contact li.email a {
+.navbar-contact li.email a,
+.navbar-contact li.facebook a {
   color: #1e414e;
 }
 .navbar-contact li.mob a:before,
-.navbar-contact li.email a:before {
+.navbar-contact li.email a:before,
+.navbar-contact li.facebook a:before {
   font-family: "anima-icon";
   position: relative;
   top: 3px;
@@ -641,6 +644,9 @@ article .title-text {
 }
 .navbar-contact li.email a:before {
   content: "\e003";
+}
+.navbar-contact li.facebook {
+  margin-left: 15px;
 }
 .navbar-contact li a {
   color: #fff;
