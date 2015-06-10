@@ -1,0 +1,32 @@
+/*
+|----------------------------------------------------------------------------
+| SKYPE TRAINING
+|----------------------------------------------------------------------------
+*/
+.skype-training {
+  background: url(../images/skype-training-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.skype-training .row-item {
+  float: none;
+  margin: 0 auto 30px;
+}
+.skype-training .title-text {
+  margin-top: 60px;
+  color: #fff;
+}
+.skype-training span {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+@media screen and (max-width: 991px) {
+  .success-stories {
+    text-align: center;
+  }
+  .success-stories .title-text {
+    margin-top: 0;
+  }
+}

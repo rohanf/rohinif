@@ -421,7 +421,7 @@ a .icon-inside:hover {
   padding: 120px 0 75px;
 }
 .success-stories .overlay,
-.success-stories .overlay {
+.skype-training .overlay {
   padding: 120px 0 90px;
 }
 .footer-body {
@@ -1200,6 +1200,9 @@ article .title-text {
 */
 .skype-training {
   background: url(../images/skype-training-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 .skype-training .row-item {
