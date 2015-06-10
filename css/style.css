@@ -401,6 +401,7 @@ a .icon-inside:hover {
 */
 /*************** SECTION WHITESPACE ***************/
 .contribution,
+.blog,
 .recent-events,
 .team-members,
 .news,
@@ -832,6 +833,14 @@ article .title-text {
 }
 /*
 |----------------------------------------------------------------------------
+| BLOG
+|----------------------------------------------------------------------------
+*/
+section.blog {
+  background: #F2F2F2;
+}
+/*
+|----------------------------------------------------------------------------
 | PET PROFILE
 |----------------------------------------------------------------------------
 */
@@ -1218,10 +1227,10 @@ article .title-text {
   font-size: 14px;
 }
 @media screen and (max-width: 991px) {
-  .success-stories {
+  .skype-training {
     text-align: center;
   }
-  .success-stories .title-text {
+  .skype-training .title-text {
     margin-top: 0;
   }
 }
@@ -2057,9 +2066,11 @@ article .inner-article {
 .popular-post p {
   margin-bottom: 0;
 }
-.popular-post .post-time {
+.popular-post .post-time,
+.popular-post .post-link {
   font-size: 13px;
   color: #8b8b8b;
+  margin-top: 5px;
 }
 .popular-post li {
   margin-top: 30px;
