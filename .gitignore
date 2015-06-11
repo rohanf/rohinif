@@ -49,3 +49,5 @@ $RECYCLE.BIN/
 # NETBEANS
 # =========================
 nbproject/
+nbproject/project.properties
+nbproject/project.xml
