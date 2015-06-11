@@ -196,7 +196,7 @@ $('.flickr-feed').jflickrfeed({
 */
 $("#subscribe").ajaxChimp({
     callback: mailchimpCallback,
-    url: "http://codepassenger.us10.list-manage.com/subscribe/post?u=6b2e008d85f125cf2eb2b40e9&id=6083876991" // Replace your mailchimp post url inside double quote "".  
+    url: "http://codepassenger.us10.list-manage.com/subscribe/post?u=6b2e008d85f125cf2eb2b40e9&id=6083876991" // Replace your mailchimp post url inside double quote "".
 });
 
 function mailchimpCallback(resp) {
@@ -207,15 +207,15 @@ function mailchimpCallback(resp) {
             .fadeIn(1000);
 
         $('.subscribe .error-msg').fadeOut(500);
-        
+
     } else if(resp.result === 'error') {
         $('.subscribe .error-msg')
             .html(resp.msg)
             .delay(500)
             .fadeIn(1000);
-            
+
         $('.subscribe .success-msg').fadeOut(500);
-    }  
+    }
 };
 
 
