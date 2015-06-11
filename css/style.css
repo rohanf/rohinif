@@ -161,13 +161,6 @@ blockquote cite {
 iframe {
   border: 0;
 }
-ol.orderedlist {
-  padding-left: 24px;
-}
-ol.orderedlist li {
-  list-style: decimal outside none;
-  padding-left: 6px;
-}
 /*
 |----------------------------------------------------------------------------
 | LAYOUT FULLWIDTH
@@ -423,9 +416,6 @@ a .icon-inside:hover {
 .success-stories .overlay {
   padding: 120px 0 90px;
 }
-.skype-training .overlay {
-  padding: 120px 0 90px;
-}
 .footer-body {
   padding: 80px 0 35px;
 }
@@ -516,15 +506,9 @@ article .title-text {
   width: 100%;
   z-index: 2;
   background: rgba(0, 0, 0, 0.7);
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .hover-content .link-popup {
   position: relative;
@@ -611,7 +595,7 @@ article .title-text {
   background: #f6e25d;
   text-transform: uppercase;
   font-family: Oswald, sans-serif;
-  font-size: 27px;
+  font-size: 40px;
   color: #000;
   transition: all 0.3s;
 }
@@ -718,15 +702,9 @@ article .title-text {
   bottom: 0;
   left: 0;
   right: 0;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 .slider-content .title-text {
@@ -766,9 +744,7 @@ article .title-text {
 .home .owl-nav [class*="owl-"] {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   margin: 0;
   border-radius: 0;
   font-family: "anima-icon";
@@ -827,7 +803,7 @@ article .title-text {
   height: 50px;
   width: 50px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .about .col_2_4 {
     width: 100%;
   }
@@ -976,15 +952,9 @@ article .title-text {
   height: 100%;
 }
 .event-timing ul li {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background: #f6e25d;
   font-size: 11px;
   margin-bottom: 2px;
@@ -1008,6 +978,9 @@ article .title-text {
 */
 .adopt-pets {
   background: url(../images/adopt-pet-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 .adopt-pets .row-item {
@@ -1055,16 +1028,12 @@ article .title-text {
     opacity: 0;
   }
   .team-members .each-member:hover .hover-profile {
-    -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 1;
   }
   .hover-profile {
     position: absolute;
-    -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
     opacity: 0;
     transition: all 0.4s;
     top: -30px;
@@ -1113,7 +1082,7 @@ article .title-text {
 |----------------------------------------------------------------------------
 */
 .testimonials {
-  background: #fff;
+  background: #fafafa;
 }
 .blockquote blockquote {
   margin: 30px 0;
@@ -1177,7 +1146,10 @@ article .title-text {
 |----------------------------------------------------------------------------
 */
 .success-stories {
-  background: url(../images/success-stories-bg-02.jpg) no-repeat center center;
+  background: url(../images/success-stories-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 .success-stories .title-text {
@@ -1209,40 +1181,11 @@ article .title-text {
 }
 /*
 |----------------------------------------------------------------------------
-| SKYPE TRAINING
-|----------------------------------------------------------------------------
-*/
-.skype-training {
-  background: url(../images/skype-training-bg.jpg) no-repeat center center;
-  background-size: cover;
-}
-.skype-training .row-item {
-  float: none;
-  margin: 0 auto 30px;
-}
-.skype-training .title-text {
-  margin-top: 60px;
-  color: #fff;
-}
-.success-stories span {
-  text-transform: uppercase;
-  font-size: 14px;
-}
-@media screen and (max-width: 991px) {
-  .success-stories {
-    text-align: center;
-  }
-  .success-stories .title-text {
-    margin-top: 0;
-  }
-}
-/*
-|----------------------------------------------------------------------------
 | PETS GALLERY
 |----------------------------------------------------------------------------
 */
 .pets-gallery {
-  background: #FAFAFA;
+  background: #fff;
 }
 .pets-gallery .mix {
   display: none;
@@ -1280,9 +1223,7 @@ article .title-text {
   transition: all 0.9s ease-in-out;
 }
 .gallery-item:hover img {
-  -webkit-transform: scale(1.1) rotate(4deg);
-      -ms-transform: scale(1.1) rotate(4deg);
-          transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
 }
 .hover-gallery .icon-inside {
   margin-right: 10px;
@@ -1419,20 +1360,8 @@ article .title-text {
 .success-msg,
 .error-msg {
   font-size: 12px;
-  color: #fff;
+  color: #1e414e;
   display: none;
-  padding: 6px;
-}
-.success-msg i,
-.error-msg i {
-display: inline-block;
-padding: 0 6px;
-}
-.success-msg {
-background-color: #1e8029;
-}
-.error-msg {
-background-color: #73171f;
 }
 /*
 |----------------------------------------------------------------------------
@@ -1482,10 +1411,6 @@ background-color: #73171f;
   color: #fff;
   margin-bottom: 0;
   font-size: 14px;
-}
-.address-block span {
-  display: block;
-  line-height: 2;
 }
 .address-block p strong {
   font-family: Oswald, sans-serif;
@@ -1612,7 +1537,7 @@ background-color: #73171f;
 /********* FOOTER FOOT *********/
 .footer-foot {
   text-align: center;
-  // border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding: 30px 0 15px;
 }
 .footer-foot p,
@@ -1628,16 +1553,9 @@ background-color: #73171f;
 | SINGLE PAGE HEADER
 |----------------------------------------------------------------------------
 */
-@media screen and (min-width: 760px) {
-  .page-head {
-    margin: 125px 0 0;
-  }
-}
 .page-head {
   background: #1e414e;
-  margin: 0;
   padding: 80px 0 50px;
-  padding: 250px 0 50px;
 }
 .page-head .section-header {
   margin-bottom: 50px;
@@ -1666,8 +1584,8 @@ background-color: #73171f;
 }
 .page-body section h3,
 .page-body article h3 {
-  padding-bottom: 15px;
-  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-top: 30px;
 }
 .page-body section:first-child h3,
 .page-body article:first-child h3 {
