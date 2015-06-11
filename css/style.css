@@ -26,7 +26,7 @@
 		4-1-2. CAROUSEL CONTROL
 
 	4-2. ABOUT US
-	4-3. CONTRIBUTION 
+	4-3. CONTRIBUTION
 	4-4. PET PROFILE
 	4-5. RECENTS EVENTS
 	4-6. ADOPT PETS
@@ -160,6 +160,13 @@ blockquote cite {
 }
 iframe {
   border: 0;
+}
+ol.orderedlist {
+  padding-left: 24px;
+}
+ol.orderedlist li {
+  list-style: decimal outside none;
+  padding-left: 6px;
 }
 /*
 |----------------------------------------------------------------------------
@@ -394,6 +401,7 @@ a .icon-inside:hover {
 */
 /*************** SECTION WHITESPACE ***************/
 .contribution,
+#blog-section,
 .recent-events,
 .team-members,
 .news,
@@ -413,7 +421,8 @@ a .icon-inside:hover {
 .adopt-pets .overlay {
   padding: 120px 0 75px;
 }
-.success-stories .overlay {
+.success-stories .overlay,
+.skype-training .overlay {
   padding: 120px 0 90px;
 }
 .footer-body {
@@ -561,7 +570,8 @@ article .title-text {
     margin-top: 35px;
   }
   .navbar-home .navbar-contact li.mob a,
-  .navbar-home .navbar-contact li.email a {
+  .navbar-home .navbar-contact li.email a,
+  .navbar-home .navbar-contact li.facebook a {
     color: #a1c4d3;
   }
   .navbar-home .navbar-nav {
@@ -595,7 +605,7 @@ article .title-text {
   background: #f6e25d;
   text-transform: uppercase;
   font-family: Oswald, sans-serif;
-  font-size: 40px;
+  font-size: 27px;
   color: #000;
   transition: all 0.3s;
 }
@@ -615,11 +625,13 @@ article .title-text {
   font-size: 12px;
 }
 .navbar-contact li.mob a,
-.navbar-contact li.email a {
+.navbar-contact li.email a,
+.navbar-contact li.facebook a {
   color: #1e414e;
 }
 .navbar-contact li.mob a:before,
-.navbar-contact li.email a:before {
+.navbar-contact li.email a:before,
+.navbar-contact li.facebook a:before {
   font-family: "anima-icon";
   position: relative;
   top: 3px;
@@ -633,6 +645,9 @@ article .title-text {
 }
 .navbar-contact li.email a:before {
   content: "\e003";
+}
+.navbar-contact li.facebook {
+  margin-left: 15px;
 }
 .navbar-contact li a {
   color: #fff;
@@ -803,7 +818,7 @@ article .title-text {
   height: 50px;
   width: 50px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .about .col_2_4 {
     width: 100%;
   }
@@ -815,6 +830,14 @@ article .title-text {
 */
 .contribution .btn {
   margin-top: 15px;
+}
+/*
+|----------------------------------------------------------------------------
+| BLOG
+|----------------------------------------------------------------------------
+*/
+section.blog {
+  background: #F2F2F2;
 }
 /*
 |----------------------------------------------------------------------------
@@ -1082,7 +1105,7 @@ article .title-text {
 |----------------------------------------------------------------------------
 */
 .testimonials {
-  background: #fafafa;
+  background: #fff;
 }
 .blockquote blockquote {
   margin: 30px 0;
@@ -1146,7 +1169,7 @@ article .title-text {
 |----------------------------------------------------------------------------
 */
 .success-stories {
-  background: url(../images/success-stories-bg.jpg) no-repeat center center;
+  background: url(../images/success-stories-bg-02.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1181,11 +1204,43 @@ article .title-text {
 }
 /*
 |----------------------------------------------------------------------------
+| SKYPE TRAINING
+|----------------------------------------------------------------------------
+*/
+.skype-training {
+  background: url(../images/skype-training-bg-02.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.skype-training .row-item {
+  float: none;
+  margin: 0 auto 30px;
+}
+.skype-training .title-text {
+  margin-top: 60px;
+  color: #fff;
+}
+.skype-training span {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+@media screen and (max-width: 991px) {
+  .skype-training {
+    text-align: center;
+  }
+  .skype-training .title-text {
+    margin-top: 0;
+  }
+}
+/*
+|----------------------------------------------------------------------------
 | PETS GALLERY
 |----------------------------------------------------------------------------
 */
 .pets-gallery {
-  background: #fff;
+  background: #fafafa;
 }
 .pets-gallery .mix {
   display: none;
@@ -1360,8 +1415,20 @@ article .title-text {
 .success-msg,
 .error-msg {
   font-size: 12px;
-  color: #1e414e;
+  color: #ffffff;
   display: none;
+  padding: 6px;
+}
+.success-msg i,
+.error-msg i {
+  display: inline-block;
+  padding: 0 6px;
+}
+.success-msg {
+  background-color: #1e8029;
+}
+.error-msg {
+  background-color: #73171f;
 }
 /*
 |----------------------------------------------------------------------------
@@ -1406,6 +1473,10 @@ article .title-text {
   text-align: center;
   color: #fff;
   width: 100%;
+}
+.address-block span {
+  display: block;
+  line-height: 2;
 }
 .address-block p {
   color: #fff;
@@ -1537,7 +1608,6 @@ article .title-text {
 /********* FOOTER FOOT *********/
 .footer-foot {
   text-align: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding: 30px 0 15px;
 }
 .footer-foot p,
@@ -1553,9 +1623,15 @@ article .title-text {
 | SINGLE PAGE HEADER
 |----------------------------------------------------------------------------
 */
+@media screen and (min-width: 760px) {
+  .page-head {
+    margin: 125px 0 0;
+  }
+}
 .page-head {
   background: #1e414e;
-  padding: 80px 0 50px;
+  margin: 0;
+  padding: 250px 0 50px;
 }
 .page-head .section-header {
   margin-bottom: 50px;
@@ -1584,8 +1660,8 @@ article .title-text {
 }
 .page-body section h3,
 .page-body article h3 {
-  padding-bottom: 45px;
-  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-top: 45px;
 }
 .page-body section:first-child h3,
 .page-body article:first-child h3 {
@@ -1990,9 +2066,11 @@ article .inner-article {
 .popular-post p {
   margin-bottom: 0;
 }
-.popular-post .post-time {
+.popular-post .post-time,
+.popular-post .post-link {
   font-size: 13px;
   color: #8b8b8b;
+  margin-top: 5px;
 }
 .popular-post li {
   margin-top: 30px;

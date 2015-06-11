@@ -1,3 +1,9 @@
+# =========================
+# Operating System Files
+# =========================
+
+# WINDOWS
+# =========================
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -17,10 +23,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# =========================
-# Operating System Files
-# =========================
-
 # OSX
 # =========================
 
@@ -38,6 +40,12 @@ $RECYCLE.BIN/
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
-Network Trash Folder
-Temporary Items
+
+# Network Trash Folder
+# Temporary Items
 .apdisk
+
+# =========================
+# NETBEANS
+# =========================
+nbproject/
