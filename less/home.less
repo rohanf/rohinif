@@ -5,7 +5,7 @@
 */
 /*************** HOME PAGE HOME NAVBAR ***************/
 @media screen and (min-width: 768px) {
-	
+
 .navbar-home {
 	&.navbar {
 		background: transparent;
@@ -21,7 +21,8 @@
 
 		li {
 			&.mob,
-			&.email {
+			&.email,
+                        &.facebook {
 				a {
 					color: #a1c4d3;
 				}
@@ -72,7 +73,7 @@
 	background: @base_bg_color;
 	text-transform: uppercase;
 	font-family: Oswald, sans-serif;
-	font-size: 40px;
+	font-size: 27px;
 	color: #000;
 	transition: all 0.3s;
 
@@ -94,7 +95,8 @@
 		font-size: 12px;
 
 		&.mob,
-		&.email {
+		&.email,
+                &.facebook {
 			a {
 				color: #1e414e;
 
@@ -125,6 +127,10 @@
 			}
 		}
 
+		&.facebook {
+			margin-left: 15px;
+		}
+
 		a {
 			color: #fff;
 			text-decoration: none;
@@ -149,7 +155,7 @@
 		}
 
 		&.active {
-			a {				
+			a {
 				&:after {
 					content: "";
 					position: absolute;
