@@ -416,13 +416,12 @@ a .icon-inside:hover {
   padding-top: 120px;
 }
 .partners {
-  padding: 120px 0 90px;
+  padding: 120px 0 80px;
 }
 .adopt-pets .overlay {
   padding: 120px 0 75px;
 }
-.success-stories .overlay,
-.skype-training .overlay {
+.success-stories .overlay {
   padding: 120px 0 90px;
 }
 .footer-body {
@@ -1213,6 +1212,10 @@ section.blog {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-height: 440px;
+}
+.skype-training .overlay {
+  padding: 170px 0;
 }
 .skype-training .row-item {
   float: none;
@@ -1232,6 +1235,14 @@ section.blog {
   }
   .skype-training .title-text {
     margin-top: 0;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .skype-training {
+    min-height: 550px;
+  }
+  .skype-training .overlay {
+    padding: 195px 0;
   }
 }
 /*
