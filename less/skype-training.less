@@ -10,6 +10,11 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+        min-height: 440px;
+
+	.overlay {
+                padding: 170px 0;
+	}
 
         .row-item {
                 float: none;
@@ -28,11 +33,23 @@
 }
 
 @media screen and (max-width: 991px) {
+
         .skype-training {
                 text-align: center;
 
                 .title-text {
                         margin-top: 0;
+                }
+        }
+}
+
+@media screen and (min-width: 1300px) {
+
+        .skype-training {
+                min-height: 550px;
+
+                .overlay {
+                    padding: 195px 0;
                 }
         }
 }
