@@ -222,10 +222,9 @@ function mailchimpCallback(resp) {
 // Function for email address validation
 function isValidEmail(emailAddress) {
 
-var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+    var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
 
     return pattern.test(emailAddress);
-
 };
 
 
@@ -235,15 +234,20 @@ var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-
 |----------------------------------------------------------------------------
 */
 $("#contact-form").on('submit', function(e) {
+
     e.preventDefault();
+
     var data = {
+        type: 'contact',
         name: $("#name").val(),
         email: $("#email").val(),
         phone: $("#phone").val(),
-        message: $("#message").val()
+        message: $("#message").val(),
+        grecaptcha: $("input[name=recaptcha-contact-response]").val()
     };
 
     if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) ) {
+
         $.ajax({
             type: "POST",
             url: "sendmail.php",
@@ -253,9 +257,53 @@ $("#contact-form").on('submit', function(e) {
                 $('.contact-form .error-msg').fadeOut(500);
             }
         });
+
     } else {
+
         $('.contact-form .error-msg').delay(500).fadeIn(1000);
         $('.contact-form .success-msg').fadeOut(500);
+    }
+
+    return false;
+});
+
+
+/*
+|----------------------------------------------------------------------------
+| AJAX COMMENTS FORM
+|----------------------------------------------------------------------------
+*/
+$("#comments-form").on('submit', function(e) {
+
+    e.preventDefault();
+
+    alert('Comments!');
+
+    var data = {
+        type: 'comment',
+        name: $("#name").val(),
+        email: $("#email").val(),
+        url: $("#url").val(),
+        message: $("#message").val(),
+        grecaptcha: $("input[name=recaptcha-comments-response]").val()
+    };
+
+    if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) ) {
+
+        $.ajax({
+            type: "POST",
+            url: "../sendmail.php",
+            data: data,
+            success: function() {
+                $('.comments-form .success-msg').delay(500).fadeIn(1000);
+                $('.comments-form .error-msg').fadeOut(500);
+            }
+        });
+
+    } else {
+
+        $('.comments-form .error-msg').delay(500).fadeIn(1000);
+        $('.comments-form .success-msg').fadeOut(500);
     }
 
     return false;

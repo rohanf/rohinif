@@ -26,25 +26,22 @@
     <!-- =========================
        STYLESHEETS
     ============================== -->
-    <!-- PRELOADER -->
-    <link rel="stylesheet" href="css/preloader.css">
-
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- GOOGLE FONTS -->
-	 <link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700%7CRaleway:100,200,300,400,500,600,700' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700%7CRaleway:100,200,300,400,500,600,700' rel='stylesheet'>
 
-   <!-- FONT ICONS CSS -->
-	<link rel="stylesheet" href="icons/styles.css">
+    <!-- FONT ICONS CSS -->
+    <link rel="stylesheet" href="icons/styles.css">
 
-   <!-- OWL CAROUSEL CSS -->
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/owl.theme.yellow.css">
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.yellow.css">
 
-   <!-- NIVO LIGHTBOX -->
-	<link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css">
-	<link rel="stylesheet" href="css/nivo-lightbox/default.css">
+    <!-- NIVO LIGHTBOX -->
+    <link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/nivo-lightbox/default.css">
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -56,8 +53,8 @@
     <link rel="stylesheet" href="css/responsive.css">
 
     <!--[if lt IE 9]>
-            <script src="js/html5shiv.js"></script>
-            <script src="js/respond.min.js"></script>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
     <![endif]-->
 
     <!-- =========================
@@ -502,9 +499,9 @@
 		</header>
 
 		<div class="contact-block">
-			<form id="contact-form" class="contact-form" name="review" method="post" role="form">
+			<form id="contact-form" class="contact-form" name="contact-form" method="post" role="form">
 				<div class="row">
-					<div class="row-item col-sm-6">
+					<div class="col-sm-6">
 						<div class="form-group">
 							<label class="sr-only" for="name">Full Name</label>
 							<div class="input-group">
@@ -530,16 +527,23 @@
 						</div>
 					</div>
 
-					<div class="row-item col-sm-6">
+					<div class="col-sm-6">
 						<div class="form-group">
 							<label class="sr-only" for="message">Message</label>
 							<div class="input-group">
 								<div class="input-group-addon"><i class="icon-email-envelope"></i></div>
-								<textarea class="form-control" id="message" name="message" placeholder="Write your message" rows="4" required="required"></textarea>
+								<textarea class="form-control" id="message" name="message" placeholder="Write your message" rows="7" required="required"></textarea>
 							</div>
 						</div>
+					</div>
 
-						<div>
+					<div class="col-sm-12">
+						<div class="form-group">
+                                                        <div id="recaptcha-contact"></div>
+                                                        <input type="hidden" name="recaptcha-contact-response" value="">
+						</div>
+
+						<div class="form-group">
 							<label class="sr-only">Send Email</label>
 							<button class="btn btn-iconic btn-fill"><i class="icon-paper-plane"></i> <span class="btn-md">Send Message</span></button>
 						</div>
@@ -652,6 +656,23 @@
 <script src="js/smoothscroll.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
+
+
+<!-- GOOGLE reCAPTCHA -->
+<script type="text/javascript">
+    var captchaContactContainer = null;
+
+    var onloadCallback = function() {
+
+        captchaContactContainer = grecaptcha.render('recaptcha-contact', {
+            'sitekey' : '6LfqoAgTAAAAABJv9LOnr1tPb09QqbC42iFJ7DwK',
+            'callback' : function(response) {
+                $("input[name=recaptcha-contact-response]").val(response);
+            }
+        });
+    };
+</script>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 
 
 <!-- GOOGLE MAP API -->
