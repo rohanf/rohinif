@@ -19,16 +19,16 @@ if ( $type == 'contact') {
     $phone = trim($_POST['phone']);
 
     // API Keys for Contact
-    $siteKey = "6LfqoAgTAAAAABJv9LOnr1tPb09QqbC42iFJ7DwK";
-    $secret = "6LfqoAgTAAAAADtWnRepeoIbpV8JZlM0MM-EDpDU";
+    $siteKey = "6LfioAgTAAAAAL8rwac-W5Dl4pxyN97fp2shHsyY";
+    $secret = "6LfioAgTAAAAAJQ9laFBU6ItwuULGT1QX-GLHCuf";
 
 } else {
 
     $url = trim($_POST['url']);
 
     // API Keys for Comment
-    $siteKey = "6Lf_pwgTAAAAAA3WTOBD9iUUuKDTnxhknD7Qr2GT";
-    $secret = "6Lf_pwgTAAAAAASAlE5zKophld5YIfRZDXCJ7lgX";
+    $siteKey = "6LcdqAgTAAAAAI3escE5x-gGPWYvx-3TXgWjJTFF";
+    $secret = "6LcdqAgTAAAAAFXDhLyMSflTOAe9xzzxNjULeewo";
 }
 
 // reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language
@@ -65,7 +65,7 @@ if( isset($name) && isset($email) && isset($message) && is_email_valid($email) )
 		exit;
 	}
 
-	$to = "sudeep.bhaumick@gmail.com";
+	$to = "rohini.ishira@gmail.com";
 
         if ( $type == 'contact') {
 
