@@ -237,20 +237,28 @@ $("#contact-form").on('submit', function(e) {
 
     e.preventDefault();
 
+    var url = "sendmail.php";
+
+    if( typeof is_blog_page === "undefined" ) var is_blog_page = $('body').is(".blog");
+
+    if (is_blog_page) {
+        url = "../sendmail.php";
+    }
+
     var data = {
         type: 'contact',
         name: $("#name").val(),
         email: $("#email").val(),
         phone: $("#phone").val(),
         message: $("#message").val(),
-        grecaptcha: $("input[name=recaptcha-contact-response]").val()
+        grecaptcha: $("#recaptcha-contact-response").val()
     };
 
     if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) ) {
 
         $.ajax({
             type: "POST",
-            url: "sendmail.php",
+            url: url,
             data: data,
             success: function() {
                 $('.contact-form .success-msg').delay(500).fadeIn(1000);
@@ -277,7 +285,13 @@ $("#comments-form").on('submit', function(e) {
 
     e.preventDefault();
 
-    alert('Comments!');
+    var url = "sendmail.php";
+
+    if( typeof is_blog_page === "undefined" ) var is_blog_page = $('body').is(".blog");
+
+    if (is_blog_page) {
+        url = "../sendmail.php";
+    }
 
     var data = {
         type: 'comment',
@@ -285,14 +299,14 @@ $("#comments-form").on('submit', function(e) {
         email: $("#email").val(),
         url: $("#url").val(),
         message: $("#message").val(),
-        grecaptcha: $("input[name=recaptcha-comments-response]").val()
+        grecaptcha: $("#recaptcha-comments-response").val()
     };
 
     if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) ) {
 
         $.ajax({
             type: "POST",
-            url: "../sendmail.php",
+            url: url,
             data: data,
             success: function() {
                 $('.comments-form .success-msg').delay(500).fadeIn(1000);

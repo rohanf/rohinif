@@ -74,7 +74,7 @@
     <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript" src="https://ss.sharethis.com/loader.js"></script>
 </head>
-<body>
+<body class="blog">
 <!-- =========================
      HOME
 ============================== -->
@@ -240,7 +240,7 @@
 						<div class="col-sm-12">
                                                         <div class="form-group">
                                                                 <div id="recaptcha-comments"></div>
-                                                                <input type="hidden" name="recaptcha-comments-response" value="">
+                                                                <input type="hidden" id="recaptcha-comments-response" value="">
                                                         </div>
 							<div class="form-group">
 								<label class="sr-only" for="name">Send Comment</label>
@@ -359,7 +359,7 @@
 					<div class="col-sm-12">
 						<div class="form-group">
                                                         <div id="recaptcha-contact"></div>
-                                                        <input type="hidden" name="recaptcha-contact-response" value="">
+                                                        <input type="hidden" id="recaptcha-contact-response" value="">
 						</div>
 
 						<div class="form-group">
@@ -473,6 +473,7 @@
 <script src="../js/jquery.fitvids.js"></script>
 <script src="../js/jquery.stellar.min.js"></script>
 <script src="../js/smoothscroll.js"></script>
+<script src="../js/wow.min.js"></script>
 <script src="../js/custom.js"></script>
 
 
@@ -486,14 +487,14 @@
         captchaContactContainer = grecaptcha.render('recaptcha-contact', {
             'sitekey' : '6LfqoAgTAAAAABJv9LOnr1tPb09QqbC42iFJ7DwK',
             'callback' : function(response) {
-                $("input[name=recaptcha-contact-response]").val(response);
+                document.getElementById("recaptcha-contact-response").value = response;
             }
         });
 
         captchaCommentsContainer = grecaptcha.render('recaptcha-comments', {
-            'sitekey' : '6LfqoAgTAAAAABJv9LOnr1tPb09QqbC42iFJ7DwK',
+            'sitekey' : '6Lf_pwgTAAAAAA3WTOBD9iUUuKDTnxhknD7Qr2GT',
             'callback' : function(response) {
-                $("input[name=recaptcha-comments-response]").val(response);
+                document.getElementById("recaptcha-comments-response").value = response;
             }
         });
     };
