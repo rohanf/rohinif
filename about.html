@@ -503,7 +503,12 @@
 
 <!-- GOOGLE reCAPTCHA -->
 <script type="text/javascript">
+
     var captchaContactContainer = null;
+
+    var expCallback = function() {
+        grecaptcha.reset();
+   };
 
     var onloadCallback = function() {
 

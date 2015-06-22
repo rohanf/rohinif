@@ -4,8 +4,8 @@ require_once "recaptchalib.php";
 
 
 // Variables
-$siteKey = "";
-$secret = "";
+$siteKey = "6LfqoAgTAAAAABJv9LOnr1tPb09QqbC42iFJ7DwK";
+$secret = "6LfqoAgTAAAAADtWnRepeoIbpV8JZlM0MM-EDpDU";
 $type = trim($_POST['type']);
 $name = trim($_POST['name']);
 $email = trim($_POST['email']);
@@ -18,17 +18,9 @@ if ( $type == 'contact') {
 
     $phone = trim($_POST['phone']);
 
-    // API Keys for Contact
-    $siteKey = "6LfqoAgTAAAAABJv9LOnr1tPb09QqbC42iFJ7DwK";
-    $secret = "6LfqoAgTAAAAADtWnRepeoIbpV8JZlM0MM-EDpDU";
-
 } else {
 
     $url = trim($_POST['url']);
-
-    // API Keys for Comment
-    $siteKey = "6Lf_pwgTAAAAAA3WTOBD9iUUuKDTnxhknD7Qr2GT";
-    $secret = "6Lf_pwgTAAAAAASAlE5zKophld5YIfRZDXCJ7lgX";
 }
 
 // reCAPTCHA supported 40+ languages listed here: https://developers.google.com/recaptcha/docs/language

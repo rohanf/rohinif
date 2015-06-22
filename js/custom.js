@@ -283,7 +283,7 @@ $("#contact-form").on('submit', function(e) {
         // console.log('Here');
     }
 
-    grecaptcha.reset();
+    grecaptcha.reset('0');
 
     return false;
 });
@@ -343,7 +343,7 @@ $('#comments-form').on('submit', function(e) {
         // console.log('Here');
     }
 
-    grecaptcha.reset('recaptcha-comments-response');
+    grecaptcha.reset('1');
 
     return false;
 });

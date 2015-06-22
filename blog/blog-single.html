@@ -750,8 +750,13 @@
 
 <!-- GOOGLE reCAPTCHA -->
 <script type="text/javascript">
+
     var captchaContactContainer = null;
     var captchaCommentsContainer = null;
+
+    var expCallback = function() {
+        grecaptcha.reset();
+   };
 
     var onloadCallback = function() {
 
@@ -759,14 +764,16 @@
             'sitekey' : '6LfqoAgTAAAAABJv9LOnr1tPb09QqbC42iFJ7DwK',
             'callback' : function(response) {
                 document.getElementById("recaptcha-contact-response").value = response;
-            }
+            },
+            'expired-callback': expCallback
         });
 
         captchaCommentsContainer = grecaptcha.render('recaptcha-comments', {
-            'sitekey' : '6Lf_pwgTAAAAAA3WTOBD9iUUuKDTnxhknD7Qr2GT',
+            'sitekey' : '6LfqoAgTAAAAABJv9LOnr1tPb09QqbC42iFJ7DwK',
             'callback' : function(response) {
                 document.getElementById("recaptcha-comments-response").value = response;
-            }
+            },
+            'expired-callback': expCallback
         });
     };
 </script>
@@ -817,8 +824,6 @@
 	$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 		initialize();
 	});
-
-
 </script>
 
 <script>
@@ -827,8 +832,8 @@
 
 <script type="text/javascript">stLight.options({publisher: "b3115a1b-bd2f-4450-9a35-6c434de724e7", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 <script>
-    var options={ "publisher": "b3115a1b-bd2f-4450-9a35-6c434de724e7", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "sharethis"]}};
-    var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+        var options={ "publisher": "b3115a1b-bd2f-4450-9a35-6c434de724e7", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "sharethis"]}};
+        var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
 </script>
 </body>
 </html>
