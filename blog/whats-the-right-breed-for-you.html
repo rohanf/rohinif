@@ -212,10 +212,20 @@
 
 			</div> <!-- /END SIDEBAR -->
 		</div>
+	</div>
+</div>
 
-		<!-- =========================
-		     COMMENT REPLY SECTION
-		============================== -->
+
+<!-- =========================
+     COMMENT REPLY SECTION
+============================== -->
+<section class="comment contact" id="comment-section">
+	<div class="container">
+		<header class="section-header">
+			<h2 class="title-text">Leave a comment</h2>
+			<p class="sub-title">Join the discussion.</p>
+		</header>
+
 		<div class="row" id="comment-reply">
 			<div class="col-md-12">
 				<form id="comments-form" class="comments-form" name="comments-form" method="post" role="form">
@@ -225,7 +235,7 @@
 								<label class="sr-only" for="name">Full Name</label>
 								<div class="input-group">
 									<div class="input-group-addon"><i class="icon-user"></i></div>
-                                                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your full name" required="required">
+                                                                        <input type="text" class="form-control" id="comments-name" name="name" placeholder="Your full name" required="required">
 								</div>
 							</div>
 
@@ -233,7 +243,7 @@
 								<label class="sr-only" for="name">Email Address</label>
 								<div class="input-group">
 									<div class="input-group-addon"><i class="icon-email-envelope"></i></div>
-                                                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your email address" required="required">
+                                                                        <input type="email" class="form-control" id="comments-email" name="email" placeholder="Your email address" required="required">
 								</div>
 							</div>
 
@@ -241,7 +251,7 @@
 								<label class="sr-only" for="name">Website Address</label>
 								<div class="input-group">
 									<div class="input-group-addon"><i class="icon-globe-world"></i></div>
-                                                                        <input type="url" class="form-control" id="url" name="url" placeholder="Website URL (optional)">
+                                                                        <input type="url" class="form-control" id="comments-url" name="url" placeholder="Website URL (optional)">
 								</div>
 							</div>
 						</div>
@@ -251,7 +261,7 @@
 								<label class="sr-only" for="name">Message</label>
 								<div class="input-group">
 									<div class="input-group-addon"><i class="icon-email-envelope"></i></div>
-                                                                        <textarea class="form-control" id="message" name="message" placeholder="Write your message" rows="4" required="required"></textarea>
+                                                                        <textarea class="form-control" id="comments-message" name="message" placeholder="Write your message" rows="4" required="required"></textarea>
 								</div>
 							</div>
 						</div>
@@ -276,8 +286,7 @@
 			</div>
 		</div>
 	</div>
-</div>
-
+</section>
 
 
 <!-- =========================
@@ -344,7 +353,7 @@
 							<label class="sr-only" for="name">Full Name</label>
 							<div class="input-group">
 								<div class="input-group-addon"><i class="icon-user"></i></div>
-						   	<input type="text" class="form-control" id="name" name="name" placeholder="Your full name" required="required">
+                                                                <input type="text" class="form-control" id="contact-name" name="name" placeholder="Your full name" required="required">
 							</div>
 						</div>
 
@@ -352,7 +361,7 @@
 							<label class="sr-only" for="email">Email Address</label>
 							<div class="input-group">
 								<div class="input-group-addon"><i class="icon-email-envelope"></i></div>
-						   	<input type="email" class="form-control" id="email" name="email" placeholder="Your email address" required="required">
+                                                                <input type="email" class="form-control" id="contact-email" name="email" placeholder="Your email address" required="required">
 							</div>
 						</div>
 
@@ -360,7 +369,7 @@
 							<label class="sr-only" for="phone">Phone Number</label>
 							<div class="input-group">
 								<div class="input-group-addon"><i class="icon-call-phone"></i></div>
-						   	<input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number (optional)">
+                                                                <input type="tel" class="form-control" id="contact-phone" name="phone" placeholder="Phone number (optional)">
 							</div>
 						</div>
 					</div>
@@ -370,7 +379,7 @@
 							<label class="sr-only" for="message">Message</label>
 							<div class="input-group">
 								<div class="input-group-addon"><i class="icon-email-envelope"></i></div>
-								<textarea class="form-control" id="message" name="message" placeholder="Write your message" rows="7" required="required"></textarea>
+								<textarea class="form-control" id="contact-message" name="message" placeholder="Write your message" rows="7" required="required"></textarea>
 							</div>
 						</div>
 					</div>
@@ -393,7 +402,6 @@
 					</div>
 				</div>
 			</form>
-
 		</div><!-- /.contact-form -->
 	</div>
 </section>

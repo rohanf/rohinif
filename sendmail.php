@@ -57,49 +57,56 @@ function is_email_valid($email) {
 }
 
 if ($response != null && $response->success) {
-if( isset($name) && isset($email) && isset($message) && is_email_valid($email) ) {
 
-	// Avoid Email Injection and Mail Form Script Hijacking
-	$pattern = "/(content-type|bcc:|cc:|to:)/i";
-	if( preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $message) ) {
-		exit;
-	}
+    if( isset($name) && isset($email) && isset($message) && is_email_valid($email) ) {
 
-	$to = "sudeep.bhaumick@gmail.com";
+            // Avoid Email Injection and Mail Form Script Hijacking
+            $pattern = "/(content-type|bcc:|cc:|to:)/i";
+            if( preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $message) ) {
+                    exit;
+            }
 
-        if ( $type == 'contact') {
+            $to = "sudeep.bhaumick@gmail.com";
 
-            $sub = "Contact Form @ RohiniFernandes.Com";
+            if ( $type == 'contact') {
 
-            // HTML Elements for Email Body
-            $body = <<<EOD
-            <strong>Name:</strong> $name <br>
-            <strong>Email:</strong> <a href="mailto:$email?subject=feedback" "email me">$email</a> <br> <br>
-            <strong>Phone:</strong> $phone <br>
-            <strong>Message:</strong> $message <br>
+                $sub = "Contact Form @ RohiniFernandes.Com";
+
+                // HTML Elements for Email Body
+                $body = <<<EOD
+                <strong>Name:</strong> $name <br> <br>
+                <strong>Email:</strong> <a href="mailto:$email?subject=feedback" "email me">$email</a> <br> <br>
+                <strong>Phone:</strong> $phone <br> <br>
+                <strong>Message:</strong> $message <br>
 EOD;
 //Must end on first column
 
-        } else {
+            } else {
 
-            $sub = " Comments Form @ RohiniFernandes.Com";
+                $sub = " Comments Form @ RohiniFernandes.Com";
 
-            // HTML Elements for Email Body
-            $body = <<<EOD
-            <strong>Name:</strong> $name <br>
-            <strong>Email:</strong> <a href="mailto:$email?subject=feedback" "email me">$email</a> <br> <br>
-            <strong>Url:</strong> <a href="$url" target="_blank">$url</a> <br>
-            <strong>Comment:</strong> $message <br>
+                // HTML Elements for Email Body
+                $body = <<<EOD
+                <strong>Name:</strong> $name <br> <br>
+                <strong>Email:</strong> <a href="mailto:$email?subject=feedback" "email me">$email</a> <br> <br>
+                <strong>Url:</strong> <a href="$url" target="_blank">$url</a> <br> <br>
+                <strong>Comment:</strong> $message <br>
 EOD;
 //Must end on first column
-        }
+            }
 
-	$headers = "From: $name <$email>\r\n";
-	$headers .= 'MIME-Version: 1.0' . "\r\n";
-	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+            $headers = "From: $name <$email>\r\n";
+            $headers .= 'MIME-Version: 1.0' . "\r\n";
+            $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-	// PHP email sender
-	mail($to, $sub, $body, $headers);
-}
+            // PHP email sender
+            mail($to, $sub, $body, $headers);
+
+            echo $response->success;
+    }
+
+} else {
+
+        echo $response->errorCodes;
 }
 ?>
