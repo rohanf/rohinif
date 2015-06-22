@@ -1,5 +1,5 @@
 $(document).ready(function() {
-"use strict";
+'use strict';
 
 /*
 |----------------------------------------------------------------------------
@@ -9,9 +9,9 @@ $(document).ready(function() {
 // makes sure the whole site is loaded
 $(window).on('load', function() {
    // will first fade out the loading animation
-   $(".spinner").fadeOut();
+   $('.spinner').fadeOut();
    //then background color will fade out slowly
-   $(".pre-loader").delay(200).fadeOut("slow");
+   $('.pre-loader').delay(200).fadeOut('slow');
 });
 */
 
@@ -247,22 +247,32 @@ $("#contact-form").on('submit', function(e) {
 
     var data = {
         type: 'contact',
-        name: $("#name").val(),
-        email: $("#email").val(),
-        phone: $("#phone").val(),
-        message: $("#message").val(),
-        grecaptcha: $("#recaptcha-contact-response").val()
+        name: $('#contact-name').val(),
+        email: $('#contact-email').val(),
+        phone: $('#contact-phone').val(),
+        message: $('#contact-message').val(),
+        grecaptcha: $('#recaptcha-contact-response').val()
     };
 
-    if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) ) {
+    if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) && (data['grecaptcha'].length > 1) ) {
 
         $.ajax({
-            type: "POST",
+            type: 'POST',
             url: url,
+            async: false,
             data: data,
-            success: function() {
-                $('.contact-form .success-msg').delay(500).fadeIn(1000);
-                $('.contact-form .error-msg').fadeOut(500);
+            success: function(response) {
+
+                if(response == '1') {
+                        $('.contact-form .success-msg').delay(500).fadeIn(1000);
+                        $('.contact-form .error-msg').fadeOut(500);
+                } else {
+                        $('.contact-form .error-msg').delay(500).fadeIn(1000);
+                        $('.contact-form .success-msg').fadeOut(500);
+                }
+            },
+            error: function(){
+                console.log('Ajax Error');
             }
         });
 
@@ -270,7 +280,10 @@ $("#contact-form").on('submit', function(e) {
 
         $('.contact-form .error-msg').delay(500).fadeIn(1000);
         $('.contact-form .success-msg').fadeOut(500);
+        // console.log('Here');
     }
+
+    grecaptcha.reset('0');
 
     return false;
 });
@@ -281,36 +294,45 @@ $("#contact-form").on('submit', function(e) {
 | AJAX COMMENTS FORM
 |----------------------------------------------------------------------------
 */
-$("#comments-form").on('submit', function(e) {
+$('#comments-form').on('submit', function(e) {
 
     e.preventDefault();
 
-    var url = "sendmail.php";
+    var url = 'sendmail.php';
 
-    if( typeof is_blog_page === "undefined" ) var is_blog_page = $('body').is(".blog");
+    if( typeof is_blog_page === 'undefined' ) var is_blog_page = $('body').is('.blog');
 
     if (is_blog_page) {
-        url = "../sendmail.php";
+        url = '../sendmail.php';
     }
 
     var data = {
         type: 'comment',
-        name: $("#name").val(),
-        email: $("#email").val(),
-        url: $("#url").val(),
-        message: $("#message").val(),
-        grecaptcha: $("#recaptcha-comments-response").val()
+        name: $('#comments-name').val(),
+        email: $('#comments-email').val(),
+        url: $('#comments-url').val(),
+        message: $('#comments-message').val(),
+        grecaptcha: $('#recaptcha-comments-response').val()
     };
 
-    if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) ) {
+    if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) && (data['grecaptcha'].length > 1) ) {
 
         $.ajax({
-            type: "POST",
+            type: 'POST',
             url: url,
             data: data,
-            success: function() {
-                $('.comments-form .success-msg').delay(500).fadeIn(1000);
-                $('.comments-form .error-msg').fadeOut(500);
+            success: function(response) {
+
+                if(response == '1') {
+                        $('.comments-form .success-msg').delay(500).fadeIn(1000);
+                        $('.comments-form .error-msg').fadeOut(500);
+                } else {
+                        $('.comments-form .error-msg').delay(500).fadeIn(1000);
+                        $('.comments-form .success-msg').fadeOut(500);
+                }
+            },
+            error: function(){
+                console.log('Ajax Error');
             }
         });
 
@@ -318,7 +340,10 @@ $("#comments-form").on('submit', function(e) {
 
         $('.comments-form .error-msg').delay(500).fadeIn(1000);
         $('.comments-form .success-msg').fadeOut(500);
+        // console.log('Here');
     }
+
+    grecaptcha.reset('1');
 
     return false;
 });
@@ -374,7 +399,7 @@ $(window).stellar({
 */
 if ( matchMedia( 'only screen and (max-width: 767px)' ).matches ) {
   $('.nav a').on('click', function(){
-     $(".navbar-toggle").click();
+     $('.navbar-toggle').click();
   });
 }
 

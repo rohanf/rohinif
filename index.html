@@ -506,7 +506,7 @@
 							<label class="sr-only" for="name">Full Name</label>
 							<div class="input-group">
 								<div class="input-group-addon"><i class="icon-user"></i></div>
-						   	<input type="text" class="form-control" id="name" name="name" placeholder="Your full name" required="required">
+                                                                <input type="text" class="form-control" id="contact-name" name="name" placeholder="Your full name" required="required">
 							</div>
 						</div>
 
@@ -514,7 +514,7 @@
 							<label class="sr-only" for="email">Email Address</label>
 							<div class="input-group">
 								<div class="input-group-addon"><i class="icon-email-envelope"></i></div>
-						   	<input type="email" class="form-control" id="email" name="email" placeholder="Your email address" required="required">
+                                                                <input type="email" class="form-control" id="contact-email" name="email" placeholder="Your email address" required="required">
 							</div>
 						</div>
 
@@ -522,7 +522,7 @@
 							<label class="sr-only" for="phone">Phone Number</label>
 							<div class="input-group">
 								<div class="input-group-addon"><i class="icon-call-phone"></i></div>
-						   	<input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number (optional)">
+                                                                <input type="tel" class="form-control" id="contact-phone" name="phone" placeholder="Phone number (optional)">
 							</div>
 						</div>
 					</div>
@@ -532,7 +532,7 @@
 							<label class="sr-only" for="message">Message</label>
 							<div class="input-group">
 								<div class="input-group-addon"><i class="icon-email-envelope"></i></div>
-								<textarea class="form-control" id="message" name="message" placeholder="Write your message" rows="7" required="required"></textarea>
+								<textarea class="form-control" id="contact-message" name="message" placeholder="Write your message" rows="7" required="required"></textarea>
 							</div>
 						</div>
 					</div>
@@ -555,7 +555,6 @@
 					</div>
 				</div>
 			</form>
-
 		</div><!-- /.contact-form -->
 	</div>
 </section>
@@ -660,7 +659,12 @@
 
 <!-- GOOGLE reCAPTCHA -->
 <script type="text/javascript">
+
     var captchaContactContainer = null;
+
+    var expCallback = function() {
+        grecaptcha.reset();
+   };
 
     var onloadCallback = function() {
 
