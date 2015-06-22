@@ -1398,9 +1398,6 @@ section.blog {
   border: 0;
   border-radius: 0;
 }
-.input-group textarea.form-control {
-  height: auto;
-}
 .input-group .form-control {
   width: 100%;
   max-width: 100%;
@@ -1415,6 +1412,9 @@ section.blog {
   font-weight: 500;
   transition: all 0.2s;
   background: transparent;
+}
+.input-group textarea.form-control {
+  height: 150px;
 }
 .input-group.active .input-group-addon {
   background: #f6e25d;
