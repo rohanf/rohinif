@@ -1,0 +1,6 @@
+index.html
+* <section class="testimonials" id="testimonials">
+  Add div for scrolling content if needed (maximum 3)
+
+testimonials.html
+* create new <article>
