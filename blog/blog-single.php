@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
 
-    <!-- TITLE OF SITE -->
-    <title>Should your dog be your bed partner? | Rohini Fernandes</title>
+   <!-- TITLE OF SITE -->
+    <title>Anima - Responsive Pet Rescue and Shelter Template</title>
 
     <!-- META DATA -->
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <meta name="author" content="Rohini Fernandes" />
+    <meta name="author" content="">
 
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -102,10 +102,10 @@
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="../index.html">Home</a></li>
-					<li><a href="../about.html">About</a></li>
-					<li><a href="../services.html">Services</a></li>
-					<li><a href="../testimonials.html">Testimonials</a></li>
+					<li><a href="../index.php">Home</a></li>
+					<li><a href="../about.php">About</a></li>
+					<li><a href="../services.php">Services</a></li>
+					<li><a href="../testimonials.php">Testimonials</a></li>
 					<li class="active"><a href="#blog">Blog <span class="sr-only">(current)</span></a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -124,9 +124,9 @@
 		<div class="row">
 			<div class="col-md-12">
 				<header class="section-header">
-					<h1 class="title-text">Should your dog be your bed partner?</h1>
+					<h1 class="title-text">Single Blog Post</h1>
 				</header>
-				<p><a href="../index.html">Return to Home page</a></p>
+				<p><a href="../index.php">Return to Home page</a></p>
 			</div>
 		</div>
 	</div>
@@ -145,29 +145,187 @@
 				     IMAGE WITH TEXT AND HIGHLIGHTS
 				============================== -->
 				<article>
-					<img src="/images/blogs/pets-in-bed.jpg" alt="Pets in bed" class="img-responsive margin-bottom-30">
-                        
- 					<p>For many of us our pets are more than animals, they are family.  Has it ever happened that you went to sleep alone and woke up with a tail in your nose?  Well, that happens to most pet parents, you are not alone.</p>
+					<h3 class="title-text">IMAGE WITH TEXT AND HIGHLIGHTS</h3>
+					<img src="images/animal-thumbs/dog-9.jpg" alt="Dog 9" class="img-responsive margin-bottom-30">
 
-					<p>Pets can be  great sleeping companions and are hot water bottles on a cold night.  Their very presence makes you feel secure and children are especially comforted by pets in the dark.  Sleeping with your pet is usually a harmless habit but do keep a few points in mind before you indulge him/them.</p>
+					<p>Anima is a non-profit Bootstap3 animals rescue clean HTML template. You can use it for your club, organisation and also for <a href="#">your persoanl need</a>. We are ready for any kind of help. Feel free to contact with us, our support team will be very happy to hear from you. We will also provide custom template and theme. We have numbers of professional and passionate designer and developers.</p>
 
-					<p>Do not force your pet to sleep with you.  You may cause it stress and anxiety Issues.  If there are crackers going off and your pet runs to hide in the toilet or in a corner, let it be.  Do not force him out to come to you.  For that time, the place that your pet has chosen is safest for him.</p>
+					<div class="inner-article row">
+						<div class="col-md-4">
+							<img src="images/animal-thumbs/cat-8.jpg" alt="Cat" class="img-responsive margin-bottom-30">
+						</div>
 
-					<p>Ensure that neither yours nor your pets sleep cycle is disturbed.  If you toss and turn then your pet will keep waking up and it your pet keeps tossing and turning, you will wake up.   The following day both of you will be grumpy!</p>
+						<div class="col-md-8">
+							<p>Anima is a non-profit Bootstap3 animals rescue clean HTML template. You can use it for your club, organisation and also for your persoanl need. We are ready for any kind of help. Feel free to contact with us, our support team will be very happy to hear from you. We will also provide custom template and theme.</p>
+						</div>
+					</div>
 
-					<p>Make sure you do not develop training and authority problems.  Dogs are pack animals by nature.  When you allow the dog to sleep in your bed, they may not consider you their leader anymore but an equal.  It could lead to aggression towards you when you try to correct your dog.  Make sure your dog knows that you are in charge all the time.</p>
-
-					<p>If you suffer from allergies then you have to think twice about letting your pets sleep with you.  The bedroom should ideally be pet-free.  Since pets walk outside, they carry dirt and pollen between their paws and it can alleviate your allergies causing serious consequences.  Pets also carry ticks and you may get bitten in the middle of the night.</p>
-
-					<p>Get your pet checked regularly by a vet.  There are some life-threatening heart and digestive system disorders that can be caught from pets both cats and dogs.</p>
-
-					<p>To conclude, it is not really wrong if your pets sleep with you.   You are not wrong even if they don't.  As the head of the family and their pack you guys have to make that treaty where you are understood by your pets and your pets are understood by you. If your pets can't abide by the rules for co-sleeping, then it might be time to get them used to their own beds or the floor.</p>
-                    
-                    <p>In the end it is all about being a happy family.  To be loved and to be wanted.</p>
-                    
-                    <p align="right">August 10, 2015</p>
-
+					<p>Anima is a non-profit Bootstap3 animals rescue clean HTML template. You can use it for your club, organisation and also for <span class="text-highlight">your persoanl need</span>. We are ready for any kind of help. Feel free to contact with us, our support team will be very happy to hear from you. We will also provide custom template and theme. We have numbers of passionate designer and developers.</p>
 				</article>
+
+				<!-- =========================
+				     VIDEO SECTION
+				============================== -->
+				<section>
+					<h3 class="title-text">Video Gallery</h3>
+
+					<div class="video-player">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/CevxZvSJLk8" allowfullscreen></iframe>
+					</div>
+
+					<div class="video-player">
+						<iframe src="https://player.vimeo.com/video/124139626?color=ffffff&amp;portrait=0" width="500" height="281" allowfullscreen></iframe>
+					</div>
+				</section>
+
+
+				<!-- =========================
+				     COMMENTS SECTION
+				============================== -->
+				<section class="comments">
+					<h3 class="title-text">Comments</h3>
+
+					<ul>
+						<li class="media">
+							<div class="hidden-xs media-left">
+								<a href="#">
+									<img src="images/users/1.jpg" alt="Blog Commenter" class="media-object">
+								</a>
+							</div><!-- /.media-left -->
+
+							<div class="media-body">
+								<h5 class="media-heading">
+									<button class="trash"><i class="icon-trash-bin"></i></button>
+									<a href="#">John Doe</a>
+									<span>12 June 2015</span>
+								</h5>
+
+								<p>Anima is a great and clean bootstrap3 HTML5 template for non-profir organisation in themeforest. Best of luck with sale.</p>
+
+								<div class="text-right user-action">
+									<p><a href="#" class="btn btn-fill btn-md">Reply</a></p>
+									<p class="report"><a href="#">Report for Spam</a></p>
+								</div>
+							</div><!-- /.media-body -->
+						</li>
+
+						<li class="media">
+							<div class="hidden-xs media-left">
+								<a href="#">
+									<img src="images/users/2.jpg" alt="Blog Commenter" class="media-object">
+								</a>
+							</div><!-- /.media-left -->
+
+							<div class="media-body">
+								<h5 class="media-heading">
+									<a href="#">McDevis</a>
+									<span>12 June 2015</span>
+								</h5>
+
+								<p>Anima is a great and clean bootstrap3 HTML5 template for non-profir organisation in themeforest. Best of luck with sale.</p>
+
+								<div class="text-right user-action">
+									<p><a href="#" class="btn btn-fill btn-md">Reply</a></p>
+									<p class="report"><a href="#">Report for Spam</a></p>
+								</div>
+							</div><!-- /.media-body -->
+
+							<ul>
+								<li class="media">
+									<div class="hidden-xs media-left">
+										<a href="#">
+											<img src="images/users/1.jpg" alt="Blog Commenter" class="media-object">
+										</a>
+									</div><!-- /.media-left -->
+
+									<div class="media-body">
+										<h5 class="media-heading">
+											<button class="trash"><i class="icon-trash-bin"></i></button>
+											<a href="#">John Doe</a>
+											<span>12 June 2015</span>
+										</h5>
+
+										<p>Anima is a great and clean bootstrap3 HTML5 template for non-profir organisation in themeforest. Best of luck with sale.</p>
+
+										<div class="text-right user-action">
+											<p><a href="#" class="btn btn-fill btn-md">Reply</a></p>
+											<p class="report"><a href="#">Report for Spam</a></p>
+										</div>
+									</div><!-- /.media-body -->
+
+									<ul>
+										<li class="media">
+											<div class="hidden-xs media-left">
+												<a href="#">
+													<img src="images/users/2.jpg" alt="Blog Commenter" class="media-object">
+												</a>
+											</div><!-- /.media-left -->
+
+											<div class="media-body">
+												<h5 class="media-heading">
+													<a href="#">John Doe</a>
+													<span>12 June 2015</span>
+												</h5>
+
+												<p>Anima is a great and clean bootstrap3 HTML5 template for non-profir organisation in themeforest. Best of luck with sale.</p>
+
+												<div class="text-right user-action">
+													<p><a href="#" class="btn btn-fill btn-md">Reply</a></p>
+													<p class="report"><a href="#">Report for Spam</a></p>
+												</div>
+											</div><!-- /.media-body -->
+										</li>
+									</ul>
+								</li>
+
+								<li class="media">
+									<div class="hidden-xs media-left">
+										<a href="#">
+											<img src="images/users/2.jpg" alt="Blog Commenter" class="media-object">
+										</a>
+									</div><!-- /.media-left -->
+
+									<div class="media-body">
+										<h5 class="media-heading">
+											<a href="#">John Doe</a>
+											<span>12 June 2015</span>
+										</h5>
+
+										<p>Anima is a great and clean bootstrap3 HTML5 template for non-profir organisation in themeforest. Best of luck with sale.</p>
+
+										<div class="text-right user-action">
+											<p><a href="#" class="btn btn-fill btn-md">Reply</a></p>
+											<p class="report"><a href="#">Report for Spam</a></p>
+										</div>
+									</div><!-- /.media-body -->
+								</li>
+							</ul>
+						</li>
+
+						<li class="media">
+							<div class="hidden-xs media-left">
+								<a href="#">
+									<img src="images/users/1.jpg" alt="Blog Commenter" class="media-object">
+								</a>
+							</div><!-- /.media-left -->
+
+							<div class="media-body">
+								<h5 class="media-heading">
+									<button class="trash"><i class="icon-trash-bin"></i></button>
+									<a href="#">John Doe</a>
+									<span>12 June 2015</span>
+								</h5>
+
+								<p>Anima is a great and clean bootstrap3 HTML5 template for non-profir organisation in themeforest. Best of luck with sale.</p>
+
+								<div class="text-right user-action">
+									<p><a href="#" class="btn btn-fill btn-md">Reply</a></p>
+									<p class="report"><a href="#">Report for Spam</a></p>
+								</div>
+							</div><!-- /.media-body -->
+						</li>
+					</ul>
+				</section>
 			</div> <!-- end of /.col-md-8 -->
 
 
@@ -185,87 +343,107 @@
 
 					<ul>
 						<li class="media">
-							<div class="media-body">
-                                                                <strong>A Second Dog - The more the merrier?</strong>
+							<div class="media-left">
+								<a href="blog-single.php">
+									<img src="images/animal-thumbs/cat-14.jpg" alt="Blog Commenter" class="media-object">
+								</a>
+							</div><!-- /.media-left -->
 
-								<p>Animals are innocent and deserve a home but you have to consider all the pros and cons because it is a big decision.</p>
+							<div class="media-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ipsum dolor sit cons.</p>
 
 								<div class="post-time">
-									<span>August 30, 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="second-dog.html">Read More <i class="icon-angle-double-right"></i></a></span>
-                                </div>                                
-							</div><!-- /.media-body -->
-						</li>
-
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>Bones - to give or not to give?</strong>
-
-								<p>The verdict on this one is still divided. Whenever you see a bone you associate it with a dog and vice versa.</p>
-
-								<div class="post-time">
-									<span>August 18, 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="should-dogs-eat-bones.html">Read More <i class="icon-angle-double-right"></i></a></span>
-                                </div>                                
-							</div><!-- /.media-body -->
-						</li>
-
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>Monsoon Care for your Pet</strong>
-
-								<p>For most dogs the monsoons means less time outdoors. Their routine is hampered, energy is not spent and they get stressed.</p>
-
-								<div class="post-time">
-									<span>July 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="monsoon-care-for-your-pet.html">Read More <i class="icon-angle-double-right"></i></a></span>
+									<span>2 hours ago</span>
 								</div>
 							</div><!-- /.media-body -->
 						</li>
 
 						<li class="media">
-							<div class="media-body">
-                                                                <strong>What's the right breed for you!</strong>
+							<div class="media-left">
+								<a href="blog-single.php">
+									<img src="images/animal-thumbs/cat-15.jpg" alt="Blog Commenter" class="media-object">
+								</a>
+							</div><!-- /.media-left -->
 
-								<p>No matter what your status in life, having a dog for companion is one of the best choices you can ever make.</p>
+							<div class="media-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ipsum dolor sit cons.</p>
 
 								<div class="post-time">
-									<span>June 2015</span>
+									<span>2 hours ago</span>
 								</div>
-
-								<div class="post-link">
-									<span><a href="whats-the-right-breed-for-you.html">Read More <i class="icon-angle-double-right"></i></a></span>
-                                </div>                                
 							</div><!-- /.media-body -->
 						</li>
 
 						<li class="media">
-							<div class="media-body">
-                                                                <strong>Home food vs Packaged food.</strong>
+							<div class="media-left">
+								<a href="blog-single.php">
+									<img src="images/animal-thumbs/par-3.jpg" alt="Blog Commenter" class="media-object">
+								</a>
+							</div><!-- /.media-left -->
 
-								<p>This is one query that all pet owners have. Should I cook for my pet or buy ready made food?</p>
+							<div class="media-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ipsum dolor sit cons.</p>
 
 								<div class="post-time">
-									<span>May 2015</span>
+									<span>2 hours ago</span>
 								</div>
+							</div><!-- /.media-body -->
+						</li>
 
-								<div class="post-link">
-									<span><a href="home-food-vs-packaged-food.html">Read More <i class="icon-angle-double-right"></i></a></span>
+						<li class="media">
+							<div class="media-left">
+								<a href="blog-single.php">
+									<img src="images/animal-thumbs/cat-14.jpg" alt="Blog Commenter" class="media-object">
+								</a>
+							</div><!-- /.media-left -->
+
+							<div class="media-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ipsum dolor sit cons.</p>
+
+								<div class="post-time">
+									<span>2 hours ago</span>
+								</div>
+							</div><!-- /.media-body -->
+						</li>
+
+						<li class="media">
+							<div class="media-left">
+								<a href="blog-single.php">
+									<img src="images/animal-thumbs/cat-15.jpg" alt="Blog Commenter" class="media-object">
+								</a>
+							</div><!-- /.media-left -->
+
+							<div class="media-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sit ipsum dolor sit cons.</p>
+
+								<div class="post-time">
+									<span>2 hours ago</span>
 								</div>
 							</div><!-- /.media-body -->
 						</li>
 					</ul>
 				</div> <!-- /END POPULAR POST -->
 
+				<!-- SIDEBAR ITEM -->
+				<div class="sidebar-widget sidebar-flickr">
+					<header class="widget-header">
+						<h5 class="title-text">Flickr Photo</h5>
+						<hr class="yellow-line">
+					</header>
+
+					<ul class="flickr-feed"></ul>
+				</div> <!-- /END SIDEBAR ITEM -->
+
+				<!-- SIDEBAR ITEM -->
+				<div class="sidebar-widget sidebar-video">
+					<header class="widget-header">
+						<h5 class="title-text">Video Player</h5>
+						<hr class="yellow-line">
+					</header>
+					<div class="video-player">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/CevxZvSJLk8" allowfullscreen></iframe>
+					</div>
+				</div> <!-- /END SIDEBAR ITEM -->
 			</div> <!-- /END SIDEBAR -->
 		</div>
 	</div>
@@ -350,61 +528,9 @@
 ============================== -->
 <a id="blog" name="blog" style="display:block;position:relative;top:0px;visibility:hidden;"></a>
 
-<section class="blog" id="blog-section">
-	<div class="container">
-		<header class="section-header">
-			<h2 class="title-text">Blog</h2>
-			<p class="sub-title">Training you to be your dog’s trainer.</p>
-		</header>
-
-		<div class="row">
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="second-dog.html">A Second Dog - The more the merrier?</a></h4>
-					<hr class="yellow-line">
-					<p>Animals are innocent and deserve a home but you have to consider all the pros and cons because it is a big decision.</p>
-					<a href="second-dog.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="should-dogs-eat-bones.html">Bones - to give or not to give?</a></h4>
-					<hr class="yellow-line">
-					<p>The verdict on this one is still divided. Whenever you see a bone you associate it with a dog and vice versa.</p>
-					<a href="should-dogs-eat-bones.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="monsoon-care-for-your-pet.html">Monsoon Care for your Pet</a></h4>
-					<hr class="yellow-line">
-					<p>For most dogs the monsoons means less time outdoors. Their routine is hampered, energy is not spent and they get stressed.</p>
-					<a href="monsoon-care-for-your-pet.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="whats-the-right-breed-for-you.html">What's the right breed for you!</a></h4>
-					<hr class="yellow-line">
-					<p>No matter what your status in life, having a dog for companion is one of the best choices you can ever make.</p>
-					<a href="whats-the-right-breed-for-you.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0.3s">
-				<article>
-					<h4 class="title-text"><a href="home-food-vs-packaged-food.html">Home food vs Packaged food.</a></h4>
-					<hr class="yellow-line">
-					<p>This is one query that all pet owners have. Should I cook for my pet or buy ready made food?</p>
-					<a href="home-food-vs-packaged-food.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-		</div>
-	</div>
-</section>
+<?php
+include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
+?>
 
 
 

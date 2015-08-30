@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <!-- TITLE OF SITE -->
-    <title>Monsoon Care for your Pet | Rohini Fernandes</title>
+    <title>Should your dog be your bed partner? | Rohini Fernandes</title>
 
     <!-- META DATA -->
     <meta name="description" content="" />
@@ -102,10 +102,10 @@
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="../index.html">Home</a></li>
-					<li><a href="../about.html">About</a></li>
+					<li><a href="../index.php">Home</a></li>
+					<li><a href="../about.php">About</a></li>
 					<li><a href="../services.html">Services</a></li>
-					<li><a href="../testimonials.html">Testimonials</a></li>
+					<li><a href="../testimonials.php">Testimonials</a></li>
 					<li class="active"><a href="#blog">Blog <span class="sr-only">(current)</span></a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -124,9 +124,9 @@
 		<div class="row">
 			<div class="col-md-12">
 				<header class="section-header">
-					<h1 class="title-text">Monsoon Care for your Pet</h1>
+					<h1 class="title-text">Should your dog be your bed partner?</h1>
 				</header>
-				<p><a href="../index.html">Return to Home page</a></p>
+				<p><a href="../index.php">Return to Home page</a></p>
 			</div>
 		</div>
 	</div>
@@ -145,23 +145,27 @@
 				     IMAGE WITH TEXT AND HIGHLIGHTS
 				============================== -->
 				<article>
-                                        <p>The monsoons are not only romantic but a great time to enjoy the rejuvenation of nature.   If you take the required safety and protective measures there is no reason why cannot enjoy it with your dog.  For most dogs the monsoons means less time outdoors.   Even basic activities like relieving themselves outside become a task because pet parents have to consider many things before venturing out.   Their routine is hampered, energy is not spent and they get stressed.   Prolonged stress has the same effect on your dog as it has on humans.</p>
+					<img src="/images/blogs/pets-in-bed.jpg" alt="Pets in bed" class="img-responsive margin-bottom-30">
+                        
+ 					<p>For many of us our pets are more than animals, they are family.  Has it ever happened that you went to sleep alone and woke up with a tail in your nose?  Well, that happens to most pet parents, you are not alone.</p>
 
-                                        <p>Many dogs get scare of lightning and thunder.  Instead of petting them at that time the best thing to do is ignore them when they get scared of the noise. You only pet your dog when he has done something good, so you don't want to reinforce his fear of thunder by petting and hugging him at that time. You can play soothing instrumental music instead. You can also speak to your vet for safe suppressants for the nerves if you feel he is extremely anxious.</p>
+					<p>Pets can be  great sleeping companions and are hot water bottles on a cold night.  Their very presence makes you feel secure and children are especially comforted by pets in the dark.  Sleeping with your pet is usually a harmless habit but do keep a few points in mind before you indulge him/them.</p>
 
-                                        <p>Keep your dog's fur dry at all times. When moisture cannot escape from the skin's surface, the dampness that remains becomes a breeding ground for fungi and bacteria.  Make sure that you wipe your dog dry after you come back from your walk.   If you see your dog constantly licking certain body parts or scratching and if you can smell a foul odour then your dog may have a fungal or bacterial infection or allergy.  See your vet immediately.</p>
+					<p>Do not force your pet to sleep with you.  You may cause it stress and anxiety Issues.  If there are crackers going off and your pet runs to hide in the toilet or in a corner, let it be.  Do not force him out to come to you.  For that time, the place that your pet has chosen is safest for him.</p>
 
-                                        <p>Check your dog's paws as they pick up all the muck from the ground and get infected.  The market is flooded with rainy shoes and gear for dogs.  It your dog has long fur, trim the fur in the paw area.  Don't forget your dog's ears.  They too are infection prone, especially dogs with closed ears.</p>
+					<p>Ensure that neither yours nor your pets sleep cycle is disturbed.  If you toss and turn then your pet will keep waking up and it your pet keeps tossing and turning, you will wake up.   The following day both of you will be grumpy!</p>
 
-                                        <p>Invest in a few good quality towels.  Make sure they are super absorbent.  You can also try dry shampoos.  In this damp weather, you may have to use a use a hair dryer and blow dry your dog if he's not scared of the noise.</p>
+					<p>Make sure you do not develop training and authority problems.  Dogs are pack animals by nature.  When you allow the dog to sleep in your bed, they may not consider you their leader anymore but an equal.  It could lead to aggression towards you when you try to correct your dog.  Make sure your dog knows that you are in charge all the time.</p>
 
-                                        <p>Give your dog a nice warm bedding.  The temperature drops and they feel the chill.  The cold can get to your dog and cause aching joints and fever.    Keep your dog's bedding, food and water in a dry place.  Avoid areas where even rain mist can seep through.  Bacteria can accumulate on the food and bedding as well.</p>
-                                        
-                                        <p>Don't let the rain hamper your dog's activities. If your dog is stressed and it is because boredom, the best way to relieve it is to spend their energy with simple things in an around the house.  Going up and down the stairs will benefit the both of you  Get him some new and exciting toys and make the effort to spend more time with your dog.</p>
-                                        
-                                        <p>Since your pet can't walk much, increase the fiber in your dog's food.  His weight will be under control and the bowels will also be regular.   Rain or shine, you can make things work with a little bit of preparation for both you and your pooch.  Have a great monsoon!!!</p>
-                                       
-                    <p align="right">July 2015</p>
+					<p>If you suffer from allergies then you have to think twice about letting your pets sleep with you.  The bedroom should ideally be pet-free.  Since pets walk outside, they carry dirt and pollen between their paws and it can alleviate your allergies causing serious consequences.  Pets also carry ticks and you may get bitten in the middle of the night.</p>
+
+					<p>Get your pet checked regularly by a vet.  There are some life-threatening heart and digestive system disorders that can be caught from pets both cats and dogs.</p>
+
+					<p>To conclude, it is not really wrong if your pets sleep with you.   You are not wrong even if they don't.  As the head of the family and their pack you guys have to make that treaty where you are understood by your pets and your pets are understood by you. If your pets can't abide by the rules for co-sleeping, then it might be time to get them used to their own beds or the floor.</p>
+                    
+                    <p>In the end it is all about being a happy family.  To be loved and to be wanted.</p>
+                    
+                    <p align="right">Rohini Fernandes<br>August 10, 2015</p>
 
 				</article>
 			</div> <!-- end of /.col-md-8 -->
@@ -172,96 +176,11 @@
 			============================== -->
 			<div class="col-md-4 sidebar hidden-sm hidden-xs">
 
-				<!-- POPULAR POST -->
-				<div class="sidebar-widget popular-post">
-					<header class="widget-header">
-						<h5 class="title-text">Popular Posts</h5>
-						<hr class="yellow-line">
-					</header>
-
-					<ul>
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>A Second Dog - The more the merrier?</strong>
-
-								<p>Animals are innocent and deserve a home but you have to consider all the pros and cons because it is a big decision.</p>
-
-								<div class="post-time">
-									<span>August 30, 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="second-dog.html">Read More <i class="icon-angle-double-right"></i></a></span>
-                                </div>                                
-							</div><!-- /.media-body -->
-						</li>
-
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>Bones - to give or not to give?</strong>
-
-								<p>The verdict on this one is still divided. Whenever you see a bone you associate it with a dog and vice versa.</p>
-
-								<div class="post-time">
-									<span>August 18, 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="should-dogs-eat-bones.html">Read More <i class="icon-angle-double-right"></i></a></span>
-                                </div>                                
-							</div><!-- /.media-body -->
-						</li>
-
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>Should your dog be your partner in bed?</strong>
-
-								<p>Has it ever happened that you went to sleep alone and woke up with a tail in your nose? You are not alone.</p>
-
-								<div class="post-time">
-									<span>August 10, 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="pets-in-bed.html">Read More <i class="icon-angle-double-right"></i></a></span>
-                                </div>                                
-							</div><!-- /.media-body -->
-						</li>
-
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>What’s the right breed for you!</strong>
-
-								<p>No matter what your status in life, having a dog for companion is one of the best choices you can ever make.</p>
-
-								<div class="post-time">
-									<span>June 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="whats-the-right-breed-for-you.html">Read More <i class="icon-angle-double-right"></i></a></span>
-                                </div>                                
-							</div><!-- /.media-body -->
-						</li>
-
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>Home food vs Packaged food.</strong>
-
-								<p>This is one query that all pet owners have. Should I cook for my pet or buy ready made food?</p>
-
-								<div class="post-time">
-									<span>May 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="home-food-vs-packaged-food.html">Read More <i class="icon-angle-double-right"></i></a></span>
-								</div>
-                                
-							</div><!-- /.media-body -->
-						</li>
-					</ul>
-				</div> <!-- /END POPULAR POST -->
+			<?php
+				global $blog_post;
+			    $blog_post = "pets-in-bed";
+			    include($_SERVER['DOCUMENT_ROOT'] . "/common/popular_posts.php");
+			?>
 
 			</div> <!-- /END SIDEBAR -->
 		</div>
@@ -347,61 +266,7 @@
 ============================== -->
 <a id="blog" name="blog" style="display:block;position:relative;top:0px;visibility:hidden;"></a>
 
-<section class="blog" id="blog-section">
-	<div class="container">
-		<header class="section-header">
-			<h2 class="title-text">Blog</h2>
-			<p class="sub-title">Training you to be your dog’s trainer.</p>
-		</header>
-
-		<div class="row">
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="second-dog.html">A Second Dog - The more the merrier?</a></h4>
-					<hr class="yellow-line">
-					<p>Animals are innocent and deserve a home but you have to consider all the pros and cons because it is a big decision.</p>
-					<a href="second-dog.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="should-dogs-eat-bones.html">Bones - to give or not to give?</a></h4>
-					<hr class="yellow-line">
-					<p>The verdict on this one is still divided. Whenever you see a bone you associate it with a dog and vice versa.</p>
-					<a href="should-dogs-eat-bones.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="pets-in-bed.html">Should your pet be your partner in bed?</a></h4>
-					<hr class="yellow-line">
-					<p>Has it ever happened that you went to sleep alone and woke up with a tail in your nose? You are not alone.</p>
-					<a href="pets-in-bed.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="whats-the-right-breed-for-you.html">What's the right breed for you!</a></h4>
-					<hr class="yellow-line">
-					<p>No matter what your status in life, having a dog for companion is one of the best choices you can ever make.</p>
-					<a href="whats-the-right-breed-for-you.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0.3s">
-				<article>
-					<h4 class="title-text"><a href="home-food-vs-packaged-food.html">Home food vs Packaged food.</a></h4>
-					<hr class="yellow-line">
-					<p>This is one query that all pet owners have. Should I cook for my pet or buy ready made food?</p>
-					<a href="home-food-vs-packaged-food.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-		</div>
-	</div>
-</section>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/common/popular_posts_footer.php"); ?>
 
 
 

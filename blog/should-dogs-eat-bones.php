@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
     <!-- TITLE OF SITE -->
-    <title>Getting a Second Dog - The more the merrier? | Rohini Fernandes</title>
+    <title>Bones - to give or not to give? | Rohini Fernandes</title>
 
     <!-- META DATA -->
     <meta name="description" content="" />
@@ -102,10 +102,10 @@
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="../index.html">Home</a></li>
-					<li><a href="../about.html">About</a></li>
+					<li><a href="../index.php">Home</a></li>
+					<li><a href="../about.php">About</a></li>
 					<li><a href="../services.html">Services</a></li>
-					<li><a href="../testimonials.html">Testimonials</a></li>
+					<li><a href="../testimonials.php">Testimonials</a></li>
 					<li class="active"><a href="#blog">Blog <span class="sr-only">(current)</span></a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -124,9 +124,9 @@
 		<div class="row">
 			<div class="col-md-12">
 				<header class="section-header">
-					<h1 class="title-text">Getting a Second Dog - The more the merrier?</h1>
+					<h1 class="title-text">Bones - to give or not to give?</h1>
 				</header>
-				<p><a href="../index.html">Return to Home page</a></p>
+				<p><a href="../index.php">Return to Home page</a></p>
 			</div>
 		</div>
 	</div>
@@ -145,23 +145,27 @@
 				     IMAGE WITH TEXT AND HIGHLIGHTS
 				============================== -->
 				<article>
-					<img src="/images/blogs/second dog.jpg" alt="Second dog" class="img-responsive margin-bottom-30">
+					<img src="/images/blogs/dog n bone.png" alt="Dog n bone" class="img-responsive margin-bottom-30">
                         
- 					<p>If having a dog for a pet has been a wonderful experience for everyone in your family and you are considering adding another one to your brood then this is the article for you. Animals are innocent and deserve a home but you have to consider all the pros and cons because it is a big decision. There is no throw away, exchange or refund when it comes to life. A commitment is a commitment. You will be responsible for the life and well being of the animal for the next 10 to 14 years.</p>
+ 					<p>The verdict on this one is still divided. Whenever you see a bone you associate it with a dog and vice versa. This perpetuates the myth that bones are safe for dogs to chew on or eat. Hence, the moment one gets a pup, the next thing on the list is a bone cause dogs love bones. Chew bones, raw bones or cooked bones - but bones it is!</p>
 
-					<p>Dogs by nature live in packs, and your dog considers you and your family members as the bosses.  When a dog is separated from his pack he develops anxiety issues that give rise to destructive behavior. One way to help your dog cope with a household that must leave him behind on a regular basis is to get a second dog. He will then have a friend to play with, sleep with, and socialize with. This is the first and foremost reason to get a dog.</p>
+					<p>Because they chew the bone to small bits and cannot sort the sharp bits from the blunt ones, they and end up swallowing everything. The splinters can then go on to perforate the intestines, cause obstruction of the gut, break teeth, cause mouth or tongue injuries. It can get looped around your dog's lower jaw, stuck in the esophagus, intestines and stomach. Constipation can occur due to bone fragments, severe bleeding from the rectum and bacterial infection of the abdomen (peritonitis).</p>
 
-					<p>Do your family members want another pet?  Please take into account their opinions and feelings.  Consider both the young and the old. Dogs can sense if a member is hostile or uncomfortable with them. </p>
+					<p>The reality is bones are unsafe no matter what their size, raw or cooked. These have caused death to many dogs.</p>
 
-					<p>If you live alone, will you be able to manage a second dog? The responsibility is double, time and energy is double, not to forget the money that will be spent - also double!!! Food, medicine, personal care products and vets don't come cheap these days. A single operation can drain you and a duo ill at the same time could send the situation spiraling out of hand. It might be a little overwhelming.</p>
+					<p>If you must feed them bones then do your research and choose wisely. Chicken wings and chicken and turkey necks are soft, pliable and do not contain marrow.  They can easily be minced in a meat grinder if you want to feed them a raw food diet. They provide calcium, phosphorus and minerals.</p>
 
-					<p>Your dog's compatibility and tolerance level for another dog matters totally. Don't presume that because he is loving towards you, he will love another dog.  You cannot force him to love the pet you choose.  It is not fair.  Dogs too have a personal space that they don't like being invaded.   You will have to ensure that he will get along with the new pet else it will not work.   If the dog has behavioral issues, there is nothing a good behaviorist cannot solve. Some basic training can make a huge difference.</p>
+					<p>Big bones filled with marrow are not to be chewed on or swallowed, just gnawed on. They are more of an activity to provide mental stimulation while keeping your pet's gums and teeth in good shape by breaking down tartar and reducing the risk of gum disease.</p>
 
-					<p>Last but not the least, consider the fact that one you make a commitment to the new dog by adopting him or her and your current pet doesn't like it, what are your options?</p>
+					<p>When you are giving your dog bones, do supervise him closely while he's chewing it. Do not allow him to chew small chunks. If you find him uneasy or making choking sounds attend to him immediately. If you have more than one dog make sure that do not get territorial about their bones. Serious fights can occur. If your dog has brittle teeth or has had dental work recently, avoid giving bones. If your dog is ill and you are not sure if you should give him a bone or not, consult your vet. It is a wise thing.</p>
 
-					<p>In the end, if your family is happy having another pet and the dogs behave well with each other without creating any havoc then owning two dogs can be twice as wonderful as owning one. With double the effort to ensure a smooth transition for each animal, the affection will be double, the faithfulness and companionship double, all good things will be – DOUBLE.</p>
+					<p>If your pet suddenly becomes extremely ill with a fever, vomiting, bloody stool or no bowel movements then rush to your vet immediately. All of these are symptoms of a gut perforation or gut obstruction.</p>
+
+					<p>Honestly, it is not like your pet is hungry and a bone is the only thing to survive on. It is better to feed your dog a healthy diet and make it chewy snacks and treats instead. Get chew toys that can't be chewed apart and that are too big to swallow to occupy your dog for play time. After all prevention is better than cure.</p>
                     
-                    <p align="right">August 30, 2015</p>
+                    <p>In the end it is all about being a happy family. To be loved and to be wanted.</p>
+
+                    <p align="right">Rohini Fernandes<br>August 18, 2015</p>
 
 				</article>
 			</div> <!-- end of /.col-md-8 -->
@@ -172,95 +176,11 @@
 			============================== -->
 			<div class="col-md-4 sidebar hidden-sm hidden-xs">
 
-				<!-- POPULAR POST -->
-				<div class="sidebar-widget popular-post">
-					<header class="widget-header">
-						<h5 class="title-text">Popular Posts</h5>
-						<hr class="yellow-line">
-					</header>
-
-					<ul>
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>Bones - to give or not to give?</strong>
-
-								<p>The verdict on this one is still divided. Whenever you see a bone you associate it with a dog and vice versa.</p>
-
-								<div class="post-time">
-									<span>August 18, 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="should-dogs-eat-bones.html">Read More <i class="icon-angle-double-right"></i></a></span>
-                                </div>                                
-							</div><!-- /.media-body -->
-						</li>
-
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>Should your dog be your partner in bed?</strong>
-
-								<p>Has it ever happened that you went to sleep alone and woke up with a tail in your nose? You are not alone.</p>
-
-								<div class="post-time">
-									<span>August 10, 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="pets-in-bed.html">Read More <i class="icon-angle-double-right"></i></a></span>
-                                </div>                                
-							</div><!-- /.media-body -->
-						</li>
-
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>Monsoon Care for your Pet</strong>
-
-								<p>For most dogs the monsoons means less time outdoors. Their routine is hampered, energy is not spent and they get stressed.</p>
-
-								<div class="post-time">
-									<span>July 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="monsoon-care-for-your-pet.html">Read More <i class="icon-angle-double-right"></i></a></span>
-								</div>
-							</div><!-- /.media-body -->
-						</li>
-
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>What's the right breed for you!</strong>
-
-								<p>No matter what your status in life, having a dog for companion is one of the best choices you can ever make.</p>
-
-								<div class="post-time">
-									<span>June 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="whats-the-right-breed-for-you.html">Read More <i class="icon-angle-double-right"></i></a></span>
-                                </div>                                
-							</div><!-- /.media-body -->
-						</li>
-
-						<li class="media">
-							<div class="media-body">
-                                                                <strong>Home food vs Packaged food.</strong>
-
-								<p>This is one query that all pet owners have. Should I cook for my pet or buy ready made food?</p>
-
-								<div class="post-time">
-									<span>May 2015</span>
-								</div>
-
-								<div class="post-link">
-									<span><a href="home-food-vs-packaged-food.html">Read More <i class="icon-angle-double-right"></i></a></span>
-								</div>
-							</div><!-- /.media-body -->
-						</li>
-					</ul>
-				</div> <!-- /END POPULAR POST -->
+			<?php
+				global $blog_post;
+			    $blog_post = "should-dogs-eat-bones";
+			    include($_SERVER['DOCUMENT_ROOT'] . "/common/popular_posts.php");
+			?>
 
 			</div> <!-- /END SIDEBAR -->
 		</div>
@@ -346,61 +266,7 @@
 ============================== -->
 <a id="blog" name="blog" style="display:block;position:relative;top:0px;visibility:hidden;"></a>
 
-<section class="blog" id="blog-section">
-	<div class="container">
-		<header class="section-header">
-			<h2 class="title-text">Blog</h2>
-			<p class="sub-title">Training you to be your dog’s trainer.</p>
-		</header>
-
-		<div class="row">
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="should-dogs-eat-bones.html">Bones - to give or not to give?</a></h4>
-					<hr class="yellow-line">
-					<p>The verdict on this one is still divided. Whenever you see a bone you associate it with a dog and vice versa.</p>
-					<a href="should-dogs-eat-bones.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="pets-in-bed.html">Should your dog be your bed partner?</a></h4>
-					<hr class="yellow-line">
-					<p>Has it ever happened that you went to sleep alone and woke up with a tail in your nose? You are not alone.</p>
-					<a href="pets-in-bed.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="monsoon-care-for-your-pet.html">Monsoon Care for your Pet</a></h4>
-					<hr class="yellow-line">
-					<p>For most dogs the monsoons means less time outdoors. Their routine is hampered, energy is not spent and they get stressed.</p>
-					<a href="monsoon-care-for-your-pet.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
-				<article>
-					<h4 class="title-text"><a href="whats-the-right-breed-for-you.html">What's the right breed for you!</a></h4>
-					<hr class="yellow-line">
-					<p>No matter what your status in life, having a dog for companion is one of the best choices you can ever make.</p>
-					<a href="whats-the-right-breed-for-you.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-
-			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0.3s">
-				<article>
-					<h4 class="title-text"><a href="home-food-vs-packaged-food.html">Home food vs Packaged food.</a></h4>
-					<hr class="yellow-line">
-					<p>This is one query that all pet owners have. Should I cook for my pet or buy ready made food?</p>
-					<a href="home-food-vs-packaged-food.html" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
-				</article>
-			</div>
-		</div>
-	</div>
-</section>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/common/popular_posts_footer.php"); ?>
 
 
 
