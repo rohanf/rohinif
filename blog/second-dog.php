@@ -60,12 +60,7 @@
     <!-- =========================
        FACEBOOK OPEN GRAPH
     ============================== -->
-    <meta property="og:site_name" content="Rohini Fernandes"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:url" content=""/>
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
-    <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
+    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/second%20dog.jpg"/>
 
     <!-- =========================
        SHARETHIS

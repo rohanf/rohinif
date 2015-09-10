@@ -58,16 +58,6 @@
     <![endif]-->
 
     <!-- =========================
-       FACEBOOK OPEN GRAPH
-    ============================== -->
-    <meta property="og:site_name" content="Rohini Fernandes"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:url" content=""/>
-    <meta property="og:title" content=""/>
-    <meta property="og:description" content=""/>
-    <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
-
-    <!-- =========================
        SHARETHIS
     ============================== -->
     <script type="text/javascript">var switchTo5x=true;</script>
