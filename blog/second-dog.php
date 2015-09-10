@@ -60,7 +60,13 @@
     <!-- =========================
        FACEBOOK OPEN GRAPH
     ============================== -->
+    <meta property="og:site_name" content="Rohini Fernandes"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://rohinifernandes.com/blog/second-dog.php"/>
     <meta property="og:image" content="http://rohinifernandes.com/images/blogs/second%20dog.jpg"/>
+    <meta property="og:title" content="Getting a Second Dog - The more the merrier?"/>
+    <meta property="og:description" content="Animals are innocent and deserve a home but you have to consider all the pros and cons because it is a big decision."/>
+    <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
 
     <!-- =========================
        SHARETHIS

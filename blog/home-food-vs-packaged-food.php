@@ -58,6 +58,16 @@
     <![endif]-->
 
     <!-- =========================
+       FACEBOOK OPEN GRAPH
+    ============================== -->
+    <meta property="og:site_name" content="Rohini Fernandes"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://rohinifernandes.com/blog/home-food-vs-packaged-food.php"/>
+    <meta property="og:title" content="Home food vs Packaged food"/>
+    <meta property="og:description" content="This is one query that all pet owners have. Should I cook for my pet or buy ready made food?"/>
+    <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
+
+    <!-- =========================
        SHARETHIS
     ============================== -->
     <script type="text/javascript">var switchTo5x=true;</script>

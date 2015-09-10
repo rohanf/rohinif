@@ -60,7 +60,13 @@
     <!-- =========================
        FACEBOOK OPEN GRAPH
     ============================== -->
+    <meta property="og:site_name" content="Rohini Fernandes"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://rohinifernandes.com/blog/pets-in-bed.php"/>
     <meta property="og:image" content="http://rohinifernandes.com/images/blogs/pets-in-bed.jpg"/>
+    <meta property="og:title" content="Should your dog be your bed partner?"/>
+    <meta property="og:description" content="Has it ever happened that you went to sleep alone and woke up with a tail in your nose? You are not alone."/>
+    <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
 
     <!-- =========================
        SHARETHIS

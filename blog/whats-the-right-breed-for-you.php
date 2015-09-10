@@ -58,6 +58,16 @@
     <![endif]-->
 
     <!-- =========================
+       FACEBOOK OPEN GRAPH
+    ============================== -->
+    <meta property="og:site_name" content="Rohini Fernandes"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://rohinifernandes.com/blog/whats-the-right-breed-for-you.php"/>
+    <meta property="og:title" content="What's the right breed for you!"/>
+    <meta property="og:description" content="No matter what your status in life, having a dog for companion is one of the best choices you can ever make."/>
+    <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
+
+    <!-- =========================
        SHARETHIS
     ============================== -->
     <script type="text/javascript">var switchTo5x=true;</script>

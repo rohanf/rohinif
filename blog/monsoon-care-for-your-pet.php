@@ -58,6 +58,16 @@
     <![endif]-->
 
     <!-- =========================
+       FACEBOOK OPEN GRAPH
+    ============================== -->
+    <meta property="og:site_name" content="Rohini Fernandes"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://rohinifernandes.com/blog/monsoon-care-for-your-pet.php"/>
+    <meta property="og:title" content="Monsoon Care for your Pet"/>
+    <meta property="og:description" content="For most dogs the monsoons means less time outdoors. Their routine is hampered, energy is not spent and they get stressed."/>
+    <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
+
+    <!-- =========================
        SHARETHIS
     ============================== -->
     <script type="text/javascript">var switchTo5x=true;</script>
