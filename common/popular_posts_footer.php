@@ -6,6 +6,18 @@
 		</header>
 
 		<div class="row">
+			<?php if ($blog_post == "responsible-pet-parenting") : ?>
+            <?php else : ?>
+			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
+				<article>
+					<h4 class="title-text"><a href="responsible-pet-parenting.php">Responsible Pet Parenting</a></h4>
+					<hr class="yellow-line">
+					<p>We live in a society where it is necessary to adhere to rules else, trouble is sure to follow!</p>
+					<a href="responsible-pet-parenting.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
+				</article>
+			</div>
+            <?php endif; ?>
+
 			<?php if ($blog_post == "second-dog") : ?>
             <?php else : ?>
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">

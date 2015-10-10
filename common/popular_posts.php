@@ -6,6 +6,25 @@
 
 					<ul>
 
+                    	<?php if ($blog_post == "responsible-pet-parenting") : ?>
+                        <?php else : ?>
+						<li class="media">
+							<div class="media-body">
+                                                                <strong>Responsible Pet Parenting</strong>
+
+								<p>We live in a society where it is necessary to adhere to rules else, trouble is sure to follow!</p>
+
+								<div class="post-time">
+									<span>October 11, 2015</span>
+								</div>
+
+								<div class="post-link">
+									<span><a href="responsible-pet-parenting.php">Read More <i class="icon-angle-double-right"></i></a></span>
+                                </div>                                
+							</div><!-- /.media-body -->
+						</li>
+						<?php endif; ?>
+
                     	<?php if ($blog_post == "second-dog") : ?>
                         <?php else : ?>
 						<li class="media">

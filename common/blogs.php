@@ -8,13 +8,24 @@
         <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
+					<h4 class="title-text"><a href="blog/responsible-pet-parenting.php">Responsible Pet Parenting</a></h4>
+					<hr class="yellow-line">
+					<p>We live in a society where it is necessary to adhere to rules else, trouble is sure to follow!</p>
+					<a href="blog/responsible-pet-parenting.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
+				</article>
+			</div>
+
+			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
+				<article>
 					<h4 class="title-text"><a href="blog/second-dog.php">A Second Dog - The more the merrier?</a></h4>
 					<hr class="yellow-line">
 					<p>Animals are innocent and deserve a home but you have to consider all the pros and cons because it is a big decision.</p>
 					<a href="blog/second-dog.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
+        </div>
 
+        <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/should-dogs-eat-bones.php">Bones - to give or not to give?</a></h4>
@@ -23,9 +34,7 @@
 					<a href="blog/should-dogs-eat-bones.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
-        </div>
 
-        <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/pets-in-bed.php">Should your dog be your bed partner?</a></h4>
@@ -34,7 +43,9 @@
 					<a href="blog/pets-in-bed.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
+        </div>
 
+        <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/monsoon-care-for-your-pet.php">Monsoon Care for your Pet</a></h4>
@@ -43,9 +54,7 @@
 					<a href="blog/monsoon-care-for-your-pet.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
-        </div>
-        
-		<div class="row">
+
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/whats-the-right-breed-for-you.php">What's the right breed for you!</a></h4>
@@ -54,7 +63,9 @@
 					<a href="blog/whats-the-right-breed-for-you.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
-
+        </div>
+        
+		<div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0.3s">
 				<article>
 					<h4 class="title-text"><a href="blog/home-food-vs-packaged-food.php">Home food vs Packaged food.</a></h4>
@@ -63,6 +74,9 @@
 					<a href="blog/home-food-vs-packaged-food.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
+            
+			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0.3s">
+            </div>
 		</div>
 	</div>
 </section>

@@ -22,3 +22,12 @@ blog/<add-to-every-blog>.html
 blog/<create-new-blog>.html
 * Add new div (relative path)
 * Add new li <li class="media">
+
+#####################################
+
+* Update
+common/blogs.php
+common/popular_posts.php
+common/popular_posts_footer.php
+
+* New blog
