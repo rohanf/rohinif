@@ -6,6 +6,25 @@
 
 					<ul>
 
+                    	<?php if ($blog_post == "spay-neuter-breed") : ?>
+                        <?php else : ?>
+						<li class="media">
+							<div class="media-body">
+                                                                <strong>Spay/Neuter or Breed? Make the right choice</strong>
+
+								<p>Know the myths that surround spaying and neutering.</p>
+
+								<div class="post-time">
+									<span>November 8, 2015</span>
+								</div>
+
+								<div class="post-link">
+									<span><a href="spay-neuter-breed.php">Read More <i class="icon-angle-double-right"></i></a></span>
+                                </div>                                
+							</div><!-- /.media-body -->
+						</li>
+						<?php endif; ?>
+
                     	<?php if ($blog_post == "responsible-pet-parenting") : ?>
                         <?php else : ?>
 						<li class="media">

@@ -6,6 +6,18 @@
 		</header>
 
 		<div class="row">
+			<?php if ($blog_post == "spay-neuter-breed") : ?>
+            <?php else : ?>
+			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
+				<article>
+					<h4 class="title-text"><a href="spay-neuter-breed.php">Spay/Neuter or Breed? Make the right choice</a></h4>
+					<hr class="yellow-line">
+					<p>Know the myths that surround spaying and neutering.</p>
+					<a href="spay-neuter-breed.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
+				</article>
+			</div>
+            <?php endif; ?>
+
 			<?php if ($blog_post == "responsible-pet-parenting") : ?>
             <?php else : ?>
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
