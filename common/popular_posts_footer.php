@@ -6,6 +6,18 @@
 		</header>
 
 		<div class="row">
+			<?php if ($blog_post == "pet-obesity") : ?>
+            <?php else : ?>
+			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
+				<article>
+					<h4 class="title-text"><a href="pet-obesity.php">Obesity and Pets</a></h4>
+					<hr class="yellow-line">
+					<p>In a country of fast food and fast weight, it is not only the people who stand a risk of obesity but our pets as well.</p>
+					<a href="pet-obesity.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
+				</article>
+			</div>
+            <?php endif; ?>
+
 			<?php if ($blog_post == "spay-neuter-breed") : ?>
             <?php else : ?>
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">

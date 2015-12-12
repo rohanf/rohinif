@@ -160,6 +160,23 @@
 
 					<article>
 
+						<h3>Brinda Upadhyaya<hr class="yellow-line"></h3>
+
+						<div class="row">
+							<div class="col-md-8">
+								<p>Pari's training  with Rohini has helped her become more obedient, calm and patient. A fun loving vivacious Spitz, Pari now channelises her energy in playing  with a ball and  actively socialising with pets and children in the neighbourhood.</p>
+                                <p>Her training was based on affection and reward which has totally removed any aggression in her nature and taught her to be disciplined, alert and well-behaved at all times. I am thankful  to Rohini Fernandes  under whose guidance Pari has shaped into a caring pet.</p>
+							</div>
+
+							<div class="col-md-4">
+								<img src="images/testimonials/pari-brinda.jpg" alt="Pari (left) and Brinda" class="img-responsive margin-bottom-30">
+							</div>
+						</div>
+
+					</article>
+
+					<article>
+
 						<h3>Shruti Rai<hr class="yellow-line"></h3>
 
 						<div class="row">

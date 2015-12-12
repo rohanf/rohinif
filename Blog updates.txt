@@ -1,33 +1,6 @@
-index.html
-* Add new div (absolute path)
-
-about.html
-* Add new div (absolute path)
-
-services.html
-* Add new div (absolute path)
-
-testimonials.html
-* Add new div (absolute path)
-
-=============================
-
-blog/blog-single.html
-* Add new div (relative path)
-
-blog/<add-to-every-blog>.html
-* Add new div (relative path)
-* Update <div class="post-link">
-
-blog/<create-new-blog>.html
-* Add new div (relative path)
-* Add new li <li class="media">
-
-#####################################
-
 * Update
-common/blogs.php
-common/popular_posts.php
-common/popular_posts_footer.php
+  common/blogs.php
+  common/popular_posts.php
+  common/popular_posts_footer.php
 
 * New blog

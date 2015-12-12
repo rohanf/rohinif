@@ -1,6 +1,6 @@
-index.html
-* <section class="testimonials" id="testimonials">
-  Add div for scrolling content if needed (maximum 3)
+* index.php
+  <section class="testimonials" id="testimonials">
+  Add div for scrolling content if needed (depending on how many you need on home page)
 
-testimonials.html
-* create new <article>
+* testimonials.php
+  create new <article> section

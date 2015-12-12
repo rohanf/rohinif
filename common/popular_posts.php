@@ -6,6 +6,25 @@
 
 					<ul>
 
+                    	<?php if ($blog_post == "pet-obesity") : ?>
+                        <?php else : ?>
+						<li class="media">
+							<div class="media-body">
+                                                                <strong>Obesity and Pets</strong>
+
+								<p>In a country of fast food and fast weight, it is not only the people who stand a risk of obesity but our pets as well.</p>
+
+								<div class="post-time">
+									<span>December 13, 2015</span>
+								</div>
+
+								<div class="post-link">
+									<span><a href="pet-obesity.php">Read More <i class="icon-angle-double-right"></i></a></span>
+                                </div>                                
+							</div><!-- /.media-body -->
+						</li>
+						<?php endif; ?>
+
                     	<?php if ($blog_post == "spay-neuter-breed") : ?>
                         <?php else : ?>
 						<li class="media">

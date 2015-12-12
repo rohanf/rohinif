@@ -387,6 +387,24 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 		<div class="owl-carousel owl-theme">
 			<div class="row owl-item">
 				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
+					<img src="images/testimonials/pari-brinda.jpg" alt="Pari (left) and Brinda" class="img-responsive">
+				</div>
+
+				<div class="row-item blockquote col-md-9 col-xs-12">
+					<blockquote>
+						<p>A fun loving vivacious Spitz, Pari now channelises her energy in playing  with a ball and  actively socialising with pets and children in the neighbourhood. I am thankful  to Rohini Fernandes  under whose guidance Pari has shaped into a caring pet.</p>
+					</blockquote>
+
+					<div class="testimonial-author">
+						<h4 class="title-text text-capitalize">Brinda Upadhyaya</h4>
+						<hr class="yellow-line">
+						<p class="meta">Healing Paws</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row owl-item">
+				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
 					<img src="images/testimonials-annu-ace-2.jpg" alt="Annu and Ace" class="img-responsive">
 				</div>
 
@@ -437,6 +455,8 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 					</div>
 				</div>
 			</div>
+
+
 		</div>
 	</div>
 </section>
