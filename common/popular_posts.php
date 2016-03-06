@@ -6,6 +6,25 @@
 
 					<ul>
 
+                    	<?php if ($blog_post == "fur-fall") : ?>
+                        <?php else : ?>
+						<li class="media">
+							<div class="media-body">
+                                                                <strong>Fur Fall</strong>
+
+								<p>If you think Rapunzel didn't have hair fall, you're wrong! All of us have hair fall including our pets.</p>
+
+								<div class="post-time">
+									<span>March 6, 2016</span>
+								</div>
+
+								<div class="post-link">
+									<span><a href="fur-fall.php">Read More <i class="icon-angle-double-right"></i></a></span>
+                                </div>                                
+							</div><!-- /.media-body -->
+						</li>
+						<?php endif; ?>
+
                     	<?php if ($blog_post == "pet-obesity") : ?>
                         <?php else : ?>
 						<li class="media">

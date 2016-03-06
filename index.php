@@ -398,25 +398,25 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 					<div class="testimonial-author">
 						<h4 class="title-text text-capitalize">Brinda Upadhyaya</h4>
 						<hr class="yellow-line">
-						<p class="meta">Healing Paws</p>
+						<!-- p class="meta">Healing Paws</p -->
 					</div>
 				</div>
 			</div>
 
 			<div class="row owl-item">
 				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
-					<img src="images/testimonials-annu-ace-2.jpg" alt="Annu and Ace" class="img-responsive">
+					<img src="images/testimonials/akiraa.jpg" alt="Akiraa with Kiyomi & Pratik Mehta" class="img-responsive">
 				</div>
 
 				<div class="row-item blockquote col-md-9 col-xs-12">
 					<blockquote>
-						<p>Most impressively, Rohini trained Ace to be a Therapy Dog. He was trained in a very special manner to be a therapy pet. As a result of this special training, Ace is the most calm and composed dog I know.</p>
+						<p>All it took was just <i><b>ONE session</b></i> with Rohini to get my girl completely sorted.</p>
 					</blockquote>
 
 					<div class="testimonial-author">
-						<h4 class="title-text text-capitalize">Anu Vaish</h4>
+						<h4 class="title-text text-capitalize">Kiyomi & Pratik Mehta</h4>
 						<hr class="yellow-line">
-						<p class="meta">Healing Paws</p>
+						<p class="meta">with Akiraa</p>
 					</div>
 				</div>
 			</div>
@@ -441,17 +441,18 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 
 			<div class="row owl-item">
 				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
-					<img src="images/testimonials-charanjit-kaur-buddy.jpg" alt="Charanjit and Buddy" class="img-responsive">
+					<img src="images/testimonials/hero and amigo.jpg" alt="Littermates Hero and Amigo" class="img-responsive">
 				</div>
 
 				<div class="row-item blockquote col-md-9 col-xs-12">
 					<blockquote>
-						<p>Getting Buddy trained from Rohini helped me understand the behaviours that Buddy displays and its reasons.</p>
+						<p>When we got home 2 Labrador puppies (littermates), we were dejected and sad when few trainers told us to return one of them or put one for adoption citing the littermate syndrome.</p>
 					</blockquote>
 
 					<div class="testimonial-author">
-						<h4 class="title-text text-capitalize">Charanjit Kaur</h4>
+						<h4 class="title-text text-capitalize">Littermates Hero and Amigo</h4>
 						<hr class="yellow-line">
+                        <p class="meta">Gurudatta & Archana Acharya</p>
 					</div>
 				</div>
 			</div>

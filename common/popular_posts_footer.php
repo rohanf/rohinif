@@ -6,6 +6,18 @@
 		</header>
 
 		<div class="row">
+			<?php if ($blog_post == "fur-fall") : ?>
+            <?php else : ?>
+			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
+				<article>
+					<h4 class="title-text"><a href="pet-obesity.php">Fur Fall</a></h4>
+					<hr class="yellow-line">
+					<p>If you think Rapunzel didn't have hair fall, you're wrong! All of us have hair fall including our pets.</p>
+					<a href="fur-fall.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
+				</article>
+			</div>
+            <?php endif; ?>
+
 			<?php if ($blog_post == "pet-obesity") : ?>
             <?php else : ?>
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">

@@ -160,6 +160,39 @@
 
 					<article>
 
+						<h3>Kiyomi & Pratik Mehta<hr class="yellow-line"></h3>
+
+						<div class="row">
+	                        <img src="images/testimonials/akiraa.jpg" alt="Akiraa with Kiyomi and Pratik Mehta" class="img-responsive margin-bottom-30">
+							<p>Akiraa, our 2 year old Labrador-mix came from a shelter when she was 13 months old and she had many a past-owner negative baggage. She came into our lives with a lot of love and playfulness. However we did not account for the destruction to be a by-product of all the mischief. Every morning my family woke up to a tornado stricken home. There were carpets of newspapers to welcome us home, whenever we went out. We were hoping Akiraa would guard our home, instead every family member had to take to being on guard. We even had a trainer come in to help us train her but that did not work, Akiraa being the smarty-paws used that trainer's treat-training method to eat as many treats as possible!! Mobile-phones, spectacles, my precious novels were just a few of the damaged goods in my home. It was then, we heard of Rohini.</p>
+                            <p>All it took was just <i><b>ONE session</b></i> with Rohini to get my girl completely sorted. Rohini made sure she spoke to us a couple of times before the first session to understand Akiraa. I clearly remember that the 1st session took up almost 2 hours because Rohini was making us understand what Akiraa was going through to behave in that manner. Obviously there was no looking back after that. There has been a huge shift in Akiraa's behaviour, she has calmed down. Most importantly she has become extremely loving and caring of every family member. What sets Rohini's Training apart is that she is her being a Canine behaviourist. As pet parents we've benefited the most out of this. We love Akiraa limitlessly and more than we ever imagined. Thus making Rohini, the "R" in our AkiRaa.</p>
+                            <p>As for our darling Akiraa, she is a super swimmer and has been chosen to be a therapy dog!!!!</p>
+						</div>
+
+					</article>
+
+					<article>
+
+						<h3>Gurudatta & Archana Acharya<hr class="yellow-line"></h3>
+
+						<div class="row">
+							<div class="col-md-8">
+								<p>When we got home 2 Labrador puppies (littermates), we were dejected and sad when few trainers told us to return one of them or put one for adoption citing the littermate syndrome. Even on the Internet in most of the forums everyone talked about the littermate syndrome and that it is not advisable to keep two pups from the same litter as pets. It was heartbreaking to part with one pup.</p>
+                                <p>That's when we met Rohini and it was she who gave us the positive reassurance to keep both of them. We have been training them under her and both Hiro and Amigo are perfectly fine. They are 1 year 2 months old now.</p>
+                                <p>They eat and sleep well play together and are affectionate and loving. They follow all the commands Rohini has taught us. In fact, it is Rohini's, 'Train the family to be the trainer' approach which is unique and we feel we understand dogs more today.</p>
+                                <p>We have been training them under Rohini since they were 4 months old. Rohini advises us on their diet which we are following well and they are both healthy.</p>
+                                <p>Rohini's work with animal-assisted therapy for special children is indeed noble and praiseworthy. She always responds to all our queries patiently and we feel reassured. She has given us excellent recommendations for all needs of our pets.</p>
+							</div>
+
+							<div class="col-md-4">
+								<img src="images/testimonials/hero and amigo.jpg" alt="Littermates Hero and Amigo" class="img-responsive margin-bottom-30">
+							</div>
+						</div>
+
+					</article>
+
+					<article>
+
 						<h3>Brinda Upadhyaya<hr class="yellow-line"></h3>
 
 						<div class="row">

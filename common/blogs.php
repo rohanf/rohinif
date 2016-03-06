@@ -8,13 +8,24 @@
         <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
+					<h4 class="title-text"><a href="blog/fur-fall.php">Fur Fall</a></h4>
+					<hr class="yellow-line">
+					<p>If you think Rapunzel didn't have hair fall, you're wrong! All of us have hair fall including our pets.</p>
+					<a href="blog/fur-fall.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
+				</article>
+			</div>
+
+			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
+				<article>
 					<h4 class="title-text"><a href="blog/pet-obesity.php">Obesity and Pets</a></h4>
 					<hr class="yellow-line">
 					<p>In a country of fast food and fast weight, it is not only the people who stand a risk of obesity but our pets as well.</p>
 					<a href="blog/pet-obesity.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
+        </div>
 
+        <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/spay-neuter-breed.php">Spay/Neuter or Breed? Make the right choice</a></h4>
@@ -23,9 +34,7 @@
 					<a href="blog/spay-neuter-breed.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
-        </div>
 
-        <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/responsible-pet-parenting.php">Responsible Pet Parenting</a></h4>
@@ -34,7 +43,9 @@
 					<a href="blog/responsible-pet-parenting.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
+        </div>
 
+        <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/second-dog.php">A Second Dog - The more the merrier?</a></h4>
@@ -43,9 +54,7 @@
 					<a href="blog/second-dog.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
-        </div>
 
-        <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/should-dogs-eat-bones.php">Bones - to give or not to give?</a></h4>
@@ -54,7 +63,9 @@
 					<a href="blog/should-dogs-eat-bones.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
+        </div>
 
+        <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/pets-in-bed.php">Should your dog be your bed partner?</a></h4>
@@ -63,9 +74,7 @@
 					<a href="blog/pets-in-bed.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
-        </div>
 
-        <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/monsoon-care-for-your-pet.php">Monsoon Care for your Pet</a></h4>
@@ -74,7 +83,9 @@
 					<a href="blog/monsoon-care-for-your-pet.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
+        </div>
 
+        <div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0s">
 				<article>
 					<h4 class="title-text"><a href="blog/whats-the-right-breed-for-you.php">What's the right breed for you!</a></h4>
@@ -83,9 +94,18 @@
 					<a href="blog/whats-the-right-breed-for-you.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
 				</article>
 			</div>
+
+			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0.3s">
+				<article>
+					<h4 class="title-text"><a href="blog/home-food-vs-packaged-food.php">Home food vs Packaged food.</a></h4>
+					<hr class="yellow-line">
+					<p>This is one query that all pet owners have. Should I cook for my pet or buy ready made food?</p>
+					<a href="blog/home-food-vs-packaged-food.php" class="btn btn-base">Learn More <i class="icon-angle-double-right"></i></a>
+				</article>
+			</div>
         </div>
         
-		<div class="row">
+		<!-- div class="row">
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0.3s">
 				<article>
 					<h4 class="title-text"><a href="blog/home-food-vs-packaged-food.php">Home food vs Packaged food.</a></h4>
@@ -97,6 +117,6 @@
             
 			<div class="row-item col-md-4 col-sm-8 col-md-offset-0 col-sm-offset-2 wow fadeInUp" data-wow-delay="0.3s">
             </div>
-		</div>
+		</div -->
 	</div>
 </section>
