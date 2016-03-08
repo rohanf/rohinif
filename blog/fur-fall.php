@@ -63,7 +63,7 @@
     <meta property="og:site_name" content="Rohini Fernandes"/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="http://rohinifernandes.com/blog/fur-fall.php"/>
-    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/fur allergies.jpg"/>
+    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/fur%20allergies.jpg"/>
     <meta property="og:title" content="Fur Fall"/>
     <meta property="og:description" content="If you think Rapunzel didn't have hair fall, you're wrong! All of us have hair fall including our pets."/>
     <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
