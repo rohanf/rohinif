@@ -63,7 +63,7 @@
     <meta property="og:site_name" content="Rohini Fernandes"/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="http://rohinifernandes.com/blog/responsible-pet-parenting.php"/>
-    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/responsible%20dog%20owner.gif"/>
+    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/responsible-dog-owner.gif"/>
     <meta property="og:title" content="Responsible Pet Parenting"/>
     <meta property="og:description" content="We live in a society where it is necessary to adhere to rules else, trouble is sure to follow!"/>
     <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
@@ -146,7 +146,7 @@
 				     IMAGE WITH TEXT AND HIGHLIGHTS
 				============================== -->
 				<article>
-					<img src="/images/blogs/responsible%20dog%20owner.gif" alt="Responsible Dog Owner" class="img-responsive margin-bottom-30">
+					<img src="/images/blogs/responsible-dog-owner.gif" alt="Responsible Dog Owner" class="img-responsive margin-bottom-30">
                         
  					<p>Having a pet is a wonderful thing but it also comes with a lot of responsibility. We live in a society where it is necessary to adhere to rules else, trouble is sure to follow!  In all the excitement of keeping a pet, people forget that it comes with a great deal of responsibility to both society, family and the pet itself. This article is about the duties of pet parents towards society.</p>
 

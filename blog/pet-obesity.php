@@ -63,7 +63,7 @@
     <meta property="og:site_name" content="Rohini Fernandes"/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="http://rohinifernandes.com/blog/pet-obesity.php"/>
-    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/pet%20obesity.jpg"/>
+    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/pet-obesity.jpg"/>
     <meta property="og:title" content="Obesity and Pets"/>
     <meta property="og:description" content="In a country of fast food and fast weight, it is not only the people who stand a risk of obesity but our pets as well."/>
     <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
@@ -146,7 +146,7 @@
 				     IMAGE WITH TEXT AND HIGHLIGHTS
 				============================== -->
 				<article>
-					<img src="/images/blogs/pet obesity.jpg" alt="Pet Obesity" class="img-responsive margin-bottom-30">
+					<img src="/images/blogs/pet-obesity.jpg" alt="Pet Obesity" class="img-responsive margin-bottom-30">
                         
  					<p>In a country of fast food and fast weight, it is not only the people who stand a risk of obesity but our pets as well. Today, a majority of pets continue to be overweight, and most owners aren't even aware of the problem. If you think a fat dog or cat is cute then think again.</p>
 

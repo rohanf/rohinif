@@ -385,23 +385,25 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 		</header>
 
 		<div class="owl-carousel owl-theme">
+
+
 			<div class="row owl-item">
 				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
-					<img src="images/testimonials/pari-brinda.jpg" alt="Pari (left) and Brinda" class="img-responsive">
+					<img src="images/testimonials/zara.jpg" alt="Golden Retriever Zara" class="img-responsive">
 				</div>
 
 				<div class="row-item blockquote col-md-9 col-xs-12">
 					<blockquote>
-						<p>A fun loving vivacious Spitz, Pari now channelises her energy in playing  with a ball and  actively socialising with pets and children in the neighbourhood. I am thankful  to Rohini Fernandes  under whose guidance Pari has shaped into a caring pet.</p>
+						<p>Every training session was a magic show for me! There was magic in her fingers and her voice. Just one hand movement along with the verbal command and Zara would understand! Seriously, how is that possible?!</p>
 					</blockquote>
 
 					<div class="testimonial-author">
-						<h4 class="title-text text-capitalize">Brinda Upadhyaya</h4>
+						<h4 class="title-text text-capitalize">Anchal Desai</h4>
 						<hr class="yellow-line">
-						<!-- p class="meta">Healing Paws</p -->
 					</div>
 				</div>
 			</div>
+            
 
 			<div class="row owl-item">
 				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
@@ -421,6 +423,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 				</div>
 			</div>
 
+
 			<div class="row owl-item">
 				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
 					<img src="images/testimonials-param-simba-2.jpg" alt="Param and Simba" class="img-responsive">
@@ -439,6 +442,7 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 				</div>
 			</div>
 
+
 			<div class="row owl-item">
 				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
 					<img src="images/testimonials/hero and amigo.jpg" alt="Littermates Hero and Amigo" class="img-responsive">
@@ -453,6 +457,25 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 						<h4 class="title-text text-capitalize">Littermates Hero and Amigo</h4>
 						<hr class="yellow-line">
                         <p class="meta">Gurudatta & Archana Acharya</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row owl-item">
+				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
+					<img src="images/testimonials/pari-brinda.jpg" alt="Pari (left) and Brinda" class="img-responsive">
+				</div>
+
+				<div class="row-item blockquote col-md-9 col-xs-12">
+					<blockquote>
+						<p>A fun loving vivacious Spitz, Pari now channelises her energy in playing  with a ball and  actively socialising with pets and children in the neighbourhood. I am thankful  to Rohini Fernandes  under whose guidance Pari has shaped into a caring pet.</p>
+					</blockquote>
+
+					<div class="testimonial-author">
+						<h4 class="title-text text-capitalize">Brinda Upadhyaya</h4>
+						<hr class="yellow-line">
+						<!-- p class="meta">Healing Paws</p -->
 					</div>
 				</div>
 			</div>

@@ -63,7 +63,7 @@
     <meta property="og:site_name" content="Rohini Fernandes"/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="http://rohinifernandes.com/blog/second-dog.php"/>
-    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/second%20dog.jpg"/>
+    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/second-dog.jpg"/>
     <meta property="og:title" content="Getting a Second Dog - The more the merrier?"/>
     <meta property="og:description" content="Animals are innocent and deserve a home but you have to consider all the pros and cons because it is a big decision."/>
     <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
@@ -146,7 +146,7 @@
 				     IMAGE WITH TEXT AND HIGHLIGHTS
 				============================== -->
 				<article>
-					<img src="/images/blogs/second dog.jpg" alt="Second dog" class="img-responsive margin-bottom-30">
+					<img src="/images/blogs/second-dog.jpg" alt="Second dog" class="img-responsive margin-bottom-30">
                         
  					<p>If having a dog for a pet has been a wonderful experience for everyone in your family and you are considering adding another one to your brood then this is the article for you. Animals are innocent and deserve a home but you have to consider all the pros and cons because it is a big decision. There is no throw away, exchange or refund when it comes to life. A commitment is a commitment. You will be responsible for the life and well being of the animal for the next 10 to 14 years.</p>
 

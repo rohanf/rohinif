@@ -160,6 +160,24 @@
 
 					<article>
 
+						<h3>Anchal Desai<hr class="yellow-line"></h3>
+
+						<div class="row">
+	                        <img src="images/testimonials/zara.jpg" alt="Golden Retriever Zara" class="img-responsive margin-bottom-30">
+                            <p>My journey with Rohini Fernandes</p>
+							<p>I was never an animal lover, it's just that my son wanted one real bad and that's when we decided to meet with Rohini.</p>
+                            <p>I still remember the day when my hubby, son and I met Rohini for the first time at her place for a puppy selection consult. Before I rang her door bell I told my hubby that whatever she says, we will go in for a small lap dog like a shih tzu -- less work, not to much exercise, no tugging on a leash. But after sitting down and asking the weirdest of questions for 2 full hours, I decided to go in for a golden retriever.</p>
+                            <p>Gosh!! Can u imagine? From a small size dog to a big one?! Now that I think back I am sure she must be facing these same standard boring questions a number of times. But not once did she hurry into the conversation.</p>
+                            <p>I got my golden  retriever Zara on October 10th, 2015 and after 3 days of having her, we started our training with Rohini.</p>
+                            <p>Every training session was a magic show for me! There was magic in her fingers and her voice. She never gave treats during the training or physically touched the dog to make her do the obedience commands. Just one hand movement along with the verbal command and Zara would understand! Seriously, how is that possible?! But yes, it did happen.</p>
+                            <p>The commands were not too many and very simple for us to remember. With every training session passing by I had a better command over my pet. Simple things like: 'I could leave my main door open and rest assured she would not run out' or 'not pull me with the leash while I am walking her' or 'come back to me when she is off-leash playing with the other pets'.</p>
+                            <p>Life for me has completely changed from a non-dog lover to a complete pet lover. I definitely cannot think of coming back to an empty home any more.</p>
+						</div>
+
+					</article>
+
+					<article>
+
 						<h3>Kiyomi & Pratik Mehta<hr class="yellow-line"></h3>
 
 						<div class="row">

@@ -63,7 +63,7 @@
     <meta property="og:site_name" content="Rohini Fernandes"/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="http://rohinifernandes.com/blog/should-dogs-eat-bones.php"/>
-    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/dog%20n%20bone.png"/>
+    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/dog-n-bone.png"/>
     <meta property="og:title" content="Bones - to give or not to give?"/>
     <meta property="og:description" content="The verdict on this one is still divided. Whenever you see a bone you associate it with a dog and vice versa."/>
     <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
@@ -146,7 +146,7 @@
 				     IMAGE WITH TEXT AND HIGHLIGHTS
 				============================== -->
 				<article>
-					<img src="/images/blogs/dog n bone.png" alt="Dog n bone" class="img-responsive margin-bottom-30">
+					<img src="/images/blogs/dog-n-bone.png" alt="Dog n bone" class="img-responsive margin-bottom-30">
                         
  					<p>The verdict on this one is still divided. Whenever you see a bone you associate it with a dog and vice versa. This perpetuates the myth that bones are safe for dogs to chew on or eat. Hence, the moment one gets a pup, the next thing on the list is a bone cause dogs love bones. Chew bones, raw bones or cooked bones - but bones it is!</p>
 

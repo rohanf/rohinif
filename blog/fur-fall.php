@@ -63,7 +63,7 @@
     <meta property="og:site_name" content="Rohini Fernandes"/>
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="http://rohinifernandes.com/blog/fur-fall.php"/>
-    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/fur%20allergies.jpg"/>
+    <meta property="og:image" content="http://rohinifernandes.com/images/blogs/fur-allergies.jpg"/>
     <meta property="og:title" content="Fur Fall"/>
     <meta property="og:description" content="If you think Rapunzel didn't have hair fall, you're wrong! All of us have hair fall including our pets."/>
     <meta property="article:author" content="https://www.facebook.com/RohiniFernandesDogTraining"/>
@@ -146,7 +146,7 @@
 				     IMAGE WITH TEXT AND HIGHLIGHTS
 				============================== -->
 				<article>
-					<img src="/images/blogs/fur allergies.jpg" alt="Fur Fall" class="img-responsive margin-bottom-30">
+					<img src="/images/blogs/fur-allergies.jpg" alt="Fur Fall" class="img-responsive margin-bottom-30">
                         
  					<p>If you think Rapunzel didn't have hair fall, you're wrong! All of us have hair fall including our pets. Hair is generally shed when another hair is ready to replace it. This is part of the hair's growth cycle. The hair or fur in animals is all connected to nerves, and so the fur also serves as a transmitter for sensory input. It protects their skin from wounds, bites, heat, cold and UV radiation. It is also used as a communication tool and as a camouflage.</p>
 
