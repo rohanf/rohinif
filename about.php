@@ -188,7 +188,6 @@
 					<h3 class="title-text">Awards and recognition<hr class="yellow-line"></h3>
 
 					<ul>
-						<li><p><i class="icon-prize-award"></i> Rohini's organization Animal Angels Foundation was shortlisted by Marico Innovation Foundation as one of the top twenty-five innovations in India for the Innovation for India Awards 2007-2008.</p></li>
 						<li><p><i class="icon-prize-award"></i> Rohini was also nominated as MTV Youth Icon of the year 2008.</p></li>
 						<li><p><i class="icon-prize-award"></i> She were nominated for the TATA NEN Startups Awards 2008. Her organization was ranked 241 from 600 different startup companies in India!</p></li>
 						<li><p><i class="icon-prize-award"></i> Rohini was chosen for the Paragon 100 Fellowship (2009-2010) organized by The Foundation for Youth Social Entrepreneurship (FYSE). Rohini was part of 100 young outstanding social change makers and entrepreneurs chosen from the Asia Pacific region.</p></li>
