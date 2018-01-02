@@ -475,6 +475,26 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 
 			<div class="row owl-item">
 				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
+					<img src="images/testimonials/muffin1.jpg" alt="Muffin & Reon Mendes" class="img-responsive">
+				</div>
+
+				<div class="row-item blockquote col-md-9 col-xs-12">
+					<blockquote>
+						<p>I would genuinely recommend anyone to go ahead with getting their Dogs trained by Rohini, you will only realize the benefits of it once you see your pet obeys you. And she is also available whenever you need help with other queries.</p>
+					</blockquote>
+
+					<div class="testimonial-author">
+						<h4 class="title-text text-capitalize">Muffin</h4>
+						<hr class="yellow-line">
+                        <p class="meta">Reon Mendes</p>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="row owl-item">
+				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
 					<img src="images/testimonials/aslan.png" alt="Aslan with Joydeepa and Biswadeep" class="img-responsive">
 				</div>
 

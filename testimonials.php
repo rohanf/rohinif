@@ -158,6 +158,24 @@
 				============================== -->
 				<section>
 
+<article>
+
+						<h3>Reon Mendes<hr class="yellow-line"></h3>
+
+						<div class="row">
+	                        <img src="images/testimonials/muffin1.jpg" alt="Muffin & Reon Mendes" class="img-responsive margin-bottom-30">
+                            							<p>When I first got my lil Muffin home she was just about 4 months and like all pups was very naughty and difficult to control. That's when I was looking for help ...and a friend recommendedd me to contact Rohini. It was a blessing for me to get someone like Rohini to train Muffin and at the same time pass on so much of vital informationn on how to bring up Muffin and also take care of her daily</p>
+                            <p>At first I was a bit hesitant to go ahead with the training but after a few day once the training begun I immediatelyy began to see changes in Muffin's behavior. And till now Muffin continues to obey every command taught to her</p>
+                            <p>I would genuinely recommend anyone to go ahead with getting their Dogs trained by Rohini, you will only realize the benefits of it once you see your pet obeys you. And she is also available whenever you need help with other queries.</p>
+                            <p>If you wish to give your Dog the best don't think twice just contact Rohini Fernandes I bet you won't regret.</p>
+                            
+						</div>
+
+					</article>
+
+
+
+
 
 					<article>
 
