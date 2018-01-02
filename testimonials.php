@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -157,6 +157,31 @@
 				     TESTIMONIALS
 				============================== -->
 				<section>
+
+
+					<article>
+
+						<h3>Joydeepa and Biswadeep<hr class="yellow-line"></h3>
+
+						<div class="row">
+	                        <img src="images/testimonials/aslan.png" alt="Aslan with Joydeepa and Biswadeep" class="img-responsive margin-bottom-30">
+
+							<p>Aslan, our 2-year old Golden Retriever, is a goofy furball who is overeager to love, lick, play and make everyone he meets happy in general. Adorable as that is, not everyone is okay with a dog jumping on them.</p>
+
+<p>Rohini taught us just the right ways to rein in his energy and control him when someone new is visiting or we are outside on a walk. He now mingles with the kids in our building without us having to worry about him hurting someone!</p>
+
+
+                            <p>The “no out” command has been particularly helpful as we no longer have to worry about him dashing out whenever he sees an open door. Also, we have established the kitchen as an area that is out of bounds for him, so people who are not comfortable can step into the kitchen till his initial excitement is gone. Now he does not go into the kitchen even if his toy goes in there, and even though there is no door!</p>
+
+                            <p>What I love best about Rohini’s way of training is that she gives every pup the required time to learn each command, so that we can move onto the next only when the dog has learnt the previous one well — something I have not seen a lot of other trainers do.</p>
+
+<p>Thanks a lot, Rohini. We are so glad that we found you to train Aslan. We hope he can serve as a therapy dog someday. For now, he is spreading the love, one ‘human’ at a time :)</p>
+
+						</div>
+
+					</article>
+
+
 
 					<article>
 

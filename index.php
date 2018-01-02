@@ -475,16 +475,16 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 
 			<div class="row owl-item">
 				<div class="row-item col-md-3 col-md-offset-0 col-xs-8 col-xs-offset-2">
-					<img src="images/testimonials/pari-brinda.jpg" alt="Pari (left) and Brinda" class="img-responsive">
+					<img src="images/testimonials/aslan.png" alt="Aslan with Joydeepa and Biswadeep" class="img-responsive">
 				</div>
 
 				<div class="row-item blockquote col-md-9 col-xs-12">
 					<blockquote>
-						<p>A fun loving vivacious Spitz, Pari now channelises her energy in playing  with a ball and  actively socialising with pets and children in the neighbourhood. I am thankful  to Rohini Fernandes  under whose guidance Pari has shaped into a caring pet.</p>
+						<p>What I love best about Rohini’s way of training is that she gives every pup the required time to learn each command so that we can move onto the next only when the dog has learned the previous one well — something I have not seen a lot of other trainers do.</p>
 					</blockquote>
 
 					<div class="testimonial-author">
-						<h4 class="title-text text-capitalize">Brinda Upadhyaya</h4>
+						<h4 class="title-text text-capitalize">Joydeepa and Biswadeep</h4>
 						<hr class="yellow-line">
 						<!-- p class="meta">Healing Paws</p -->
 					</div>
