@@ -160,6 +160,30 @@
 
 <article>
 
+						<h3>Tanmayi Manjeshwar<hr class="yellow-line"></h3>
+
+						<div class="row">
+	                        <img src="images/testimonials/tanmayi.jpg" alt="Tanmayi Manjeshwar" class="img-responsive margin-bottom-30">
+
+							<p>In a perfect world, our daughter Mihika would have had many friends despite her having special needs (a birth trauma resulting in delayed milestones and challenges.</p>
+
+<p>But that's not really the case. We spent many evenings alone with her having no real friends...though she was very social. She was a lonely child and it was breaking our hearts as parents.</p>
+
+<p>I happened to chance upon a video of a child with a traumatic brain injury benefiting from Animal Assisted Therapy. But this... was in the US. We hadn't heard of any such thing in India.</p>
+
+<p>A series of coincidences led us to Rohini Fernandes. Rohini took a lot of time to explain the pros and cons of keeping a pet. We did a trial session with Cherry, a sweet beagle. Mihika seemed unsure but comfortable enough to try petting and feeding Cherry, gently guided by Rohini. This experience kind of sealed it for us and we launched into the process of getting a therapy dog home.</p>
+
+<p>Fast forward a year and a half and our not-so-perfect world seems all that much more perfect with Bonnie our beautiful Golden Retriever. Our daughter and Bonnie have formed such a wonderful bond and we cannot imagine our lives without our naughty furbaby spreading her joy with every tail wag. She has changed the dynamics of our home and family in such a positive way.</p>
+
+<p>Thank you Rohini for guiding us so patiently through our barrage of questions. Your training and guidance has been invaluable to us. Your depth of knowledge in this field is immense. We need more and more of the magic you do for people with unique needs through Animal Angels Foundation.</p>
+
+                            </div>
+
+					</article>
+
+
+<article>
+
 						<h3>Reon Mendes<hr class="yellow-line"></h3>
 
 						<div class="row">
@@ -173,9 +197,37 @@
 
 					</article>
 
+<article>
 
+						<h3>Marianne Gonsalves<hr class="yellow-line"></h3>
 
+						<div class="row">
+	                        <img src="images/testimonials/Marianne.jpg" alt="Marianne Gonsalves & Coco" class="img-responsive margin-bottom-30">
 
+							<p>With Rohini's help we were able to control our 3 year old furbaby's intolerance for children and strangers. She is calmer now and is easy to take for walks in the evening when kids are playing or older people are walking around.</p>
+
+<p>Rohini had only one session with Coco and she understood her problem and fixed it.</p>
+
+                            </div>
+
+					</article>
+
+<article>
+
+						<h3>Nikita Merchant<hr class="yellow-line"></h3>
+
+						<div class="row">
+	                        <img src="images/testimonials/nikita.jpg" alt="Nikita Merchant" class="img-responsive margin-bottom-30">
+
+							<p>Pesto is our first dog and we had no clue about what to expect with him when we got him home. It didn't help that one of us was scared of dogs (a spur of the moment decision). Pesto is possibly one of the most boisterous, hyper-energetic dogs you will ever meet. He also has an alpha male dominant streak in him, which made it difficult for us to control or connect with him. When we first met Rohini (she was highly recommended by two non-connected people), we were honestly nervous and unsure if anything could possibly change Pesto.</p>
+
+<p>Truth is, we were looking at it the wrong way. The beauty about Rohini's program is that she doesn't train the pet, she trains you to understand, communicate and behave with the pet. In short, it is 'magic'. Rohini patiently explained us the logic and psychology behind Pesto's every move. She helped us understand the specie he belonged to and the fact that it was a mutually accepting relationship - for pesto to accept humans and for us to accept him as a dog.</p>
+<p>Pesto's energy levels only increased with age, but her training helped us understand why he showed unwanted behaviour sometimes, and taught us when & how to correct him the 'dog way'. Her training is structured, thought through and logical. She has helped us journey from the early days of cluelessness towards having a fulfilling relationship with our pet.</p>
+<p>Rohini with her extensive experience and approachability is a knowledge bank on animal behaviour and will always be our go to person, for training, for doubts or simply to share the latest exploits of Pesto! We strongly recommend her services!</p>
+
+                            </div>
+
+					</article>
 
 					<article>
 
