@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -171,6 +171,17 @@
 </div>
 
 
+<center>
+<div id="flyer">
+	<div class="fwd-row base-content">
+			<img src="images/flyers/reiki.jpg" alt="Rohini Fernandes" class="img-responsive">
+        </div>
+</div>
+</center>
+
+
+
+
 
 <!-- =========================
      ABOUT
@@ -186,7 +197,7 @@
 				<i class="icon-inside icon-heart"></i>
 				<h4 class="title-text">Rohini</h4>
 				<hr class="white-line">
-				<p>Rohini is a canine behaviourist, professional dog trainer and a clinical psychologist. She has beenworking in this field of dog training since 2001. Rohini has worked with a wide variety of breeds and dealt with a variety of behaviour problems. From teaching toilet training, handling chewing issues, controlling aggression, working on dominance problems and destructive behaviours, she has trained dogs of all ages with her oldest dog client being 11 years old!</p>
+				<p>Rohini is a canine behaviourist, professional dog trainer and a clinical psychologist. She has been working in this field of dog training since 2001. Rohini has worked with a wide variety of breeds and dealt with a variety of behaviour problems. From teaching toilet training, handling chewing issues, controlling aggression, working on dominance problems and destructive behaviours, she has trained dogs of all ages with her oldest dog client being 11 years old!</p>
 				<p><a href="about.php" class="btn btn-base">Learn More About Her <i class="icon-angle-double-right"></i></a></p>
 			</article>
 		</div>

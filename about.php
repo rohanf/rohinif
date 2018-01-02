@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -162,11 +162,14 @@
 
 					<p><span class="text-highlight">Rohini is a canine behaviourist, professional dog trainer and a clinical psychologist.</span></p>
 
-					<p>She has beenworking in this field of dog training since 2001. Rohini has worked with a wide variety of breeds and dealt with a variety of behaviour problems. From teaching toilet training, handling chewing issues, controlling aggression, working on dominance problems and destructive behaviours, she has trained dogs of all ages with her oldest dog client being 11 years old!</p>
+					<p>She has been working in this field of dog training since 2001. Rohini has worked with a wide variety of breeds and dealt with a variety of behaviour problems. From teaching toilet training, handling chewing issues, controlling aggression, working on dominance problems and destructive behaviours, she has trained dogs of all ages with her oldest dog client being 11 years old!</p>
 
 					<p>She has also trained and entered dogs for obedience shows held by the Indian National Kennel Club, and has won numerous prizes at these shows in obedience, performance and breed categories.</p>
 
-					<p>In 2005 Rohini founded Animal Angels Foundation,(<a href="www.animalangelsfoundation.com" target="_blank">www.animalangelsfoundation.com</a>) an organisation that works with therapy dogs to help people. She is a certified practitioner of animal-assisted therapy from the University of North Texas and Pet Partners, USA. Her speciality is training therapy dogs that work with children with developmental disabilities and adults with mental illnesses.</p>
+					<p>In 2005 Rohini founded Animal Angels Foundation,(<a href="http://www.animalangelsfoundation.com" target="_blank">www.animalangelsfoundation.com</a>) an organisation that works with therapy dogs to help people. She is a certified practitioner of animal-assisted therapy from the University of North Texas and Pet Partners, USA. Her speciality is training therapy dogs that work with children with developmental disabilities and adults with mental illnesses.</p>
+
+<p>Rohini now works with the Kryon Wisdom Centre where she facilitates workshops to teach people telepathic animal communication and animal reiki. If you would like to register for these workshops please visit <a href="http://www.wisdomcentre.co.in" target="_blank">www.wisdomcentre.co.in</a> or get in touch with Rohini on +919820788703.</p>
+
 
 					<div class="row">
 						<div class="col-md-4">
