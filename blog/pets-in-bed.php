@@ -11,7 +11,7 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Rohini Fernandes" />
 
-    <? include($_SERVER['DOCUMENT_ROOT'] . "/common/headers.php"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/headers.php"); ?>
 
     <!-- =========================
        FACEBOOK OPEN GRAPH
@@ -36,7 +36,7 @@
      HOME
 ============================== -->
 <div class="home" id="home">
-	<? include($_SERVER['DOCUMENT_ROOT'] . "/common/navigation.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'] . "/common/navigation.php"); ?>
 </div>
 
 
@@ -343,7 +343,7 @@
 	</div> <!-- /.tab-content -->
 </div>
 
-<? include($_SERVER['DOCUMENT_ROOT'] . "/common/footers.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] . "/common/footers.php"); ?>
 
 </body>
 </html>
