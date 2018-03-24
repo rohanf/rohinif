@@ -4,8 +4,8 @@ require_once "recaptchalib.php";
 
 
 // Variables
-$siteKey = "6LfioAgTAAAAAL8rwac-W5Dl4pxyN97fp2shHsyY";
-$secret = "6LfioAgTAAAAAJQ9laFBU6ItwuULGT1QX-GLHCuf";
+$siteKey = "6LeJNEQUAAAAAHKnM4yXTeHUFoRtNTtwGcEHxi-w";
+$secret = "6LeJNEQUAAAAAHGbeBbIBe6dqA6JUqOqUgKen6Np";
 $type = trim($_POST['type']);
 $name = trim($_POST['name']);
 $email = trim($_POST['email']);
@@ -58,7 +58,7 @@ if ($response != null && $response->success) {
                     exit;
             }
 
-            $to = "rohini.ishira@gmail.com";
+            $to = "rohiniishira@gmail.com";
 
             if ( $type == 'contact') {
 
