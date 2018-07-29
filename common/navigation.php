@@ -15,7 +15,7 @@
 
 			<div class="collapse navbar-collapse" id="anima-navbar-collapse">
 				<ul class="navbar-contact hidden-xs">
-					<li class="mob"><a href="tel:+919820788703">+91 98 207 88703</a></li>
+					<li class="mob"><a href="tel:+919820788703">98207 88703</a></li>
 					<li class="email"><a href="mailto:rohiniishira@gmail.com" target="_blank">rohiniishira@gmail.com</a></li>
 					<li class="facebook"><a href="https://www.facebook.com/RohiniFernandesDogTraining" target="_blank"><i class="icon-facebook"></i></a></li>
 				</ul>
@@ -27,6 +27,7 @@
 					<li><a href="/testimonials.php">Testimonials</a></li>
 					<li><a href="#blog">Blog</a></li>
 					<li><a href="#contact">Contact</a></li>
+                    <li><a href="/courses-workshops.php">Courses/Workshops</a></li>
 				</ul>
 			</div>
 		</div>

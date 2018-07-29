@@ -97,16 +97,32 @@
 
 
 <center>
-<div id="flyer">
-	<div class="fwd-row base-content">
-			<img src="images/flyers/reiki.jpg" alt="Rohini Fernandes" class="img-responsive">
+	<div id="reiki-flyer">
+		<div class="fwd-row base-content">
+			<img src="images/flyers/reiki.jpg" alt="Reiki Communication 4 in 1 Workshop Flyer" class="img-responsive">
         </div>
-</div>
+	</div>
 </center>
 
+<div style="padding: 20px;"></div>
 
+<center>
+	<div id="dog-connection-flyer">
+		<div class="fwd-row base-content">
+			<a href="courses-workshops.php#the-dog-connection"><img src="images/flyers/Dog Connection.jpg" width="853 px" alt="Dog Connection Flyer" class="img-responsive"></a>
+        </div>
+	</div>
+</center>
 
+<div style="padding: 20px;"></div>
 
+<center>
+	<div id="reiki-telepathic-communication-flyer">
+		<div class="fwd-row base-content">
+			<a href="courses-workshops.php#reiki-telepathic-communication"><img src="images/flyers/HAPRC SEPT 2018.jpg" width="853 px" alt="Reiki Telepathic Communication Flyer" class="img-responsive"></a>
+        </div>
+	</div>
+</center>
 
 <!-- =========================
      ABOUT
