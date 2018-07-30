@@ -95,17 +95,6 @@
 	</div>
 </div>
 
-
-<center>
-	<div id="reiki-flyer">
-		<div class="fwd-row base-content">
-			<img src="images/flyers/reiki.jpg" alt="Reiki Communication 4 in 1 Workshop Flyer" class="img-responsive">
-        </div>
-	</div>
-</center>
-
-<div style="padding: 20px;"></div>
-
 <center>
 	<div id="dog-connection-flyer">
 		<div class="fwd-row base-content">
