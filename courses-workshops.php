@@ -161,7 +161,7 @@ of course, start this professionally in future! Thank you!"</i></p>
                     
 					<p>Animal and Plants can live without Human beings. Human Beings Cannot live without them. Animals and Plants are our Providers. Join to make a difference.</p>
                     
-                    <img src="images/flyers/HAPRC SEPT 2018.jpg" alt="Reiki Telepathic Communication Flyer" class="img-responsive margin-bottom-30">
+                    <img src="images/flyers/Reiki Flyer.jpg" alt="Reiki Telepathic Communication Flyer" class="img-responsive margin-bottom-30">
                     
                     <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/payment_details.php"); ?>
 
@@ -186,7 +186,7 @@ of course, start this professionally in future! Thank you!"</i></p>
 						<li class="media">
 							<div class="media-left">
 								<a href="courses-workshops.php#the-dog-connection">
-									<img src="images/thumbnails/thumbnail-dog-connection.jpg" alt="Dog Training Course" class="media-object">
+									<img src="images/thumbnails/thumbnail-dog-connection.png" alt="Dog Connection" class="media-object">
 								</a>
 							</div><!-- /.media-left -->
 
@@ -212,7 +212,7 @@ of course, start this professionally in future! Thank you!"</i></p>
 						<li class="media">
 							<div class="media-left">
 								<a href="courses-workshops.php#reiki-telepathic-communication">
-									<img src="images/thumbnails/thumbnail-haprc-sept-2018.jpg" alt="Reiki Telepathic Communication" class="media-object">
+									<img src="images/thumbnails/thumbnail-reiki.png" alt="Reiki Telepathic Communication" class="media-object">
 								</a>
 							</div><!-- /.media-left -->
 
