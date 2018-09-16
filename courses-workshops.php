@@ -116,7 +116,7 @@
 
                     <p>Please refer to the flyer below for details</p>
                     
-                    <img src="images/flyers/Dog Connection.jpg" alt="Dog Connection Flyer" class="img-responsive margin-bottom-30">
+                    <img src="images/flyers/Canine Training Course.png" alt="Dog Training Flyer" class="img-responsive margin-bottom-30">
 
 					<p><span class="text-highlight">Participant's Feedback</span></p>
                     
