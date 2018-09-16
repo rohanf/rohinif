@@ -112,8 +112,6 @@
 					<p></p>
 					<p>If you truly love dogs, animals and have dreams about a career with them, then this is definitely the course for you.</p>
 
-					<p>A simple example: Every society in Mumbai has at least 3-5 pet dogs and their pet parents are all on the lookout for genuine people who can teach them to handle their dogs.</p>
-
 					<p>Ours is a 6 month course that gives you ample practice, so that you get the confidence to train and work with dogs.</p>
 
                     <p>Please refer to the flyer below for details</p>

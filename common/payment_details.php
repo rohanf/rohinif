@@ -31,6 +31,7 @@
                         </div>
 					</div>
 
+<!-- COMENT OUT
 					<div style="padding: 20px;"></div>
 
 					<div class="input-group">
@@ -93,3 +94,6 @@
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.768933777271!2d72.8424556153093!3d19.16158920425497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b64e17d02cd1%3A0xd8f1bbe439d5394c!2sC+Wing+Sai+Baba+Enclave+Towers!5e0!3m2!1sen!2sus!4v1532852518663" width="400" height="300" frameborder="0" allowfullscreen></iframe>
                         </div>
 					</div>
+
+
+-->

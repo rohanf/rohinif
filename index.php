@@ -98,7 +98,7 @@
 <center>
 	<div id="dog-connection-flyer">
 		<div class="fwd-row base-content">
-			<a href="courses-workshops.php#the-dog-connection"><img src="images/flyers/Dog Connection.jpg" width="853 px" alt="Dog Connection Flyer" class="img-responsive"></a>
+			<a href="courses-workshops.php#the-dog-connection"><img src="images/flyers/Canine Training Course.png" width="853 px" alt="Dog Training Flyer" class="img-responsive"></a>
         </div>
 	</div>
 </center>
@@ -108,7 +108,7 @@
 <center>
 	<div id="reiki-telepathic-communication-flyer">
 		<div class="fwd-row base-content">
-			<a href="courses-workshops.php#reiki-telepathic-communication"><img src="images/flyers/HAPRC SEPT 2018.jpg" width="853 px" alt="Reiki Telepathic Communication Flyer" class="img-responsive"></a>
+			<a href="courses-workshops.php#reiki-telepathic-communication"><img src="images/flyers/Reiki Flyer.jpg" width="853 px" alt="Reiki Telepathic Communication Flyer" class="img-responsive"></a>
         </div>
 	</div>
 </center>
