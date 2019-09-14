@@ -11,7 +11,11 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Rohini Fernandes" />
 
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/headers.php"); ?>
+	<?php
+		global $navbar;
+		$navbar = "courses-workshops";
+		include($_SERVER['DOCUMENT_ROOT'] . "/common/headers.php");
+	?>
 
     <!-- =========================
        FACEBOOK OPEN GRAPH
@@ -85,7 +89,7 @@
 
 					<p><span class="text-highlight">Registration</span></p>
                     
-                    <p>To register please click on <a href="https://goo.gl/forms/f4Knujn9DsyhV7NC3" target="_blank">this link</a></p>
+                    <p>To register please click on <a href="https://forms.gle/sgwhLo8ykpCgEMMD7" target="_blank">this link</a></p>
 
 					<img src="images/kryon.png" alt="Kryon logo" class="img-responsive margin-bottom-30">
                     
@@ -153,7 +157,7 @@ of course, start this professionally in future! Thank you!"</i></p>
 
 					<p><span class="text-highlight">Registration</span></p>
                     
-                    <p>To register please click on <a href="https://goo.gl/forms/seMLSP4gqJ54Mppn2" target="_blank">this link</a></p>
+                    <p>To register please click on <a href="https://forms.gle/sgwhLo8ykpCgEMMD7" target="_blank">this link</a></p>
 
                     <hr/>
 
@@ -333,65 +337,6 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 		</div><!-- /.contact-form -->
 	</div>
 </section>
-
-
-
-<!-- =========================
-     ADDRESS  -MAP
-============================== -->
-<div class="address-map" role="tabpanel">
-	<div class="container">
-		<div class="row" id="address-map-tab" role="tablist">
-			<div class="address col-md-offset-3 col-md-3 col-xs-offset-0 col-xs-6">
-				<a href="#address-block" aria-controls="address-block" role="tab" data-toggle="tab">
-					<i class="icon-paper-plane"></i>
-					<h4 class="title-text text-capitalize">Contact Details</h4>
-				</a>
-			</div>
-
-			<div class="map col-md-3 col-xs-6">
-				<a href="#map-block" aria-controls="map-block" role="tab" data-toggle="tab">
-					<i class="icon-pin-map"></i>
-					<h4 class="title-text text-capitalize">Map</h4>
-				</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="tab-content">
-		<div class="address-block tab-pane fade in active" id="address-block" role="tabpanel">
-			<div class="container">
-				<div class="row">
-					<div class="row-item col-md-3">
-						<i class="icon-phone-mobile"></i>
-						<p>Phone : <strong> +91 98 207 88703</strong></p>
-					</div>
-
-					<div class="row-item col-md-3">
-						<a href="mailto:rohiniishira@gmail.com" target="_blank"><i class="icon-email-envelope"></i><span>rohiniishira@gmail.com</span></a>
-					</div>
-
-					<div class="row-item col-md-3">
-						<a href="https://www.facebook.com/RohiniFernandesDogTraining" target="_blank"><i class="icon-facebook"></i><span>Rohini Fernandes Dog Training</span></a>
-					</div>
-
-					<div class="row-item col-md-3">
-						<i class="icon-pin-map"></i>
-						<address>
-							<p>Prerna 11, Military Road,</p>
-							<p>Marol, Andheri East,</p>
-							<p>Mumbai 400 059, India</p>
-						</address>
-					</div>
-				</div>
-			</div>
-		</div><!-- /.address-block -->
-
-		<div class="map-block tab-pane fade" id="map-block" role="tabpanel">
-
-		</div><!-- /.address-block -->
-	</div> <!-- /.tab-content -->
-</div>
 
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/footers.php"); ?>
 

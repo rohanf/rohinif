@@ -1,10 +1,10 @@
 					<h3 class="title-text">Payment Details<hr class="yellow-line"></h3>
                     
-                    <p>Kryon Wisdom Centre has 6 cheque drop centres as well as online transfer option.</p>
+                    <p>You have the option of making an NEFT transfer or writing a cheque.</p>
 
 					<div class="input-group">
 						<div class="input-group-addon"><i class="icon-credit-card"></i></div>
-						<div style="padding:20px; background-color:#2196F3; color:white;"><strong>NEFT Transfer or Cash Deposit</strong></div>
+						<div style="padding:20px; background-color:#2196F3; color:white;"><strong>NEFT Transfer</strong></div>
 						<div style="padding:10px 2px 10px 20px; border: 2px solid; border-radius: 0px 0px 5px 0px; border-color: #2196F3;"><b>Account Name:</b> Kryon  Wisdom Centre<br />
 							<b>Current Account number:</b> 201001712811<br />
 							<b>Bank:</b> INDUSIND BANK LTD<br />
@@ -14,14 +14,14 @@
 							Mumbai
                         </div>
 					</div>
-
+                    
 					<div style="padding: 20px;"></div>
 
 					<div class="input-group">
 						<div class="input-group-addon"><i class="icon-building"></i></div>
-						<div style="padding:20px; background-color:#2196F3; color:white;"><strong>Kryon Wisdom Center, Juhu</strong></div>
-						<div style="padding:10px 2px 10px 20px; border: 2px solid; border-radius: 0px 0px 5px 0px; border-color: #2196F3;">Number 3, Ground Floor<br />
-							Juhu Shilpa<br />
+						<div style="padding:20px; background-color:#2196F3; color:white;"><strong>Cheques</strong></div>
+						<div style="padding:10px 2px 10px 20px; border: 2px solid; border-radius: 0px 0px 5px 0px; border-color: #2196F3;">Please write all cheques in favour of '<b>Kryon Wisdom Centre</b>' and courier them to the following address.<br />
+							3, Juhu Shilpa<br />
 							Khawaha Abbas Road<br />
 							Opposite JW Marriott<br />
 							Juhu<br />

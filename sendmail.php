@@ -58,7 +58,7 @@ if ($response != null && $response->success) {
                     exit;
             }
 
-            $to = "rohiniishira@gmail.com";
+            $to = "wisdomcentre.co.in@gmail.com";
 
             if ( $type == 'contact') {
 

@@ -21,13 +21,55 @@
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="/index.php">Home <span class="sr-only">(current)</span></a></li>
-					<li><a href="/about.php">About</a></li>
-					<li><a href="/services.php">Services</a></li>
-					<li><a href="/testimonials.php">Testimonials</a></li>
-					<li><a href="#blog">Blog</a></li>
-					<li><a href="#contact">Contact</a></li>
-                    <li><a href="/courses-workshops.php">Courses/Workshops</a></li>
+                    <?php if ($navbar == "home") : ?>
+						<li class="active"><a href="/index.php">Home <span class="sr-only">(current)</span></a></li>
+						<li><a href="/about.php">About</a></li>
+						<li><a href="/services.php">Services</a></li>
+						<li><a href="/testimonials.php">Testimonials</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
+                    	<li><a href="/courses-workshops.php">Courses/Workshops</a></li>
+                    <?php elseif ($navbar == "about") : ?>
+						<li><a href="/index.php">Home</a></li>
+						<li class="active"><a href="/about.php">About<span class="sr-only">(current)</span></a></li>
+						<li><a href="/services.php">Services</a></li>
+						<li><a href="/testimonials.php">Testimonials</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
+                    	<li><a href="/courses-workshops.php">Courses/Workshops</a></li>
+                    <?php elseif ($navbar == "services") : ?>
+						<li><a href="/index.php">Home</a></li>
+						<li><a href="/about.php">About</a></li>
+						<li class="active"><a href="/services.php">Services<span class="sr-only">(current)</span></a></li>
+						<li><a href="/testimonials.php">Testimonials</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
+                    	<li><a href="/courses-workshops.php">Courses/Workshops</a></li>
+                    <?php elseif ($navbar == "testimonials") : ?>
+						<li><a href="/index.php">Home</a></li>
+						<li><a href="/about.php">About</a></li>
+						<li><a href="/services.php">Services</a></li>
+						<li class="active"><a href="/testimonials.php">Testimonials<span class="sr-only">(current)</span></a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
+                    	<li><a href="/courses-workshops.php">Courses/Workshops</a></li>
+                    <?php elseif ($navbar == "blog") : ?>
+						<li><a href="/index.php">Home</a></li>
+						<li><a href="/about.php">About</a></li>
+						<li><a href="/services.php">Services</a></li>
+						<li><a href="/testimonials.php">Testimonials</a></li>
+						<li class="active"><a href="#blog">Blog<span class="sr-only">(current)</span></a></li>
+						<li><a href="#contact">Contact</a></li>
+                    	<li><a href="/courses-workshops.php">Courses/Workshops</a></li>
+                    <?php elseif ($navbar == "courses-workshops") : ?>
+						<li><a href="/index.php">Home</a></li>
+						<li><a href="/about.php">About</a></li>
+						<li><a href="/services.php">Services</a></li>
+						<li><a href="/testimonials.php">Testimonials</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#contact">Contact</a></li>
+                    	<li class="active"><a href="/courses-workshops.php">Courses/Workshops<span class="sr-only">(current)</span></a></li>
+                    <?php endif; ?>
 				</ul>
 			</div>
 		</div>

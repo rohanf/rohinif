@@ -11,7 +11,11 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Rohini Fernandes" />
 
-    <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/headers.php"); ?>
+	<?php
+		global $navbar;
+		$navbar = "about";
+		include($_SERVER['DOCUMENT_ROOT'] . "/common/headers.php");
+	?>
 
     <!-- =========================
        FACEBOOK OPEN GRAPH
@@ -82,30 +86,31 @@
 				<article>
 					<h3 class="title-text">Profile<hr class="yellow-line"></h3>
 
-					<img src="images/about-profile.jpg" alt="Dog 9" class="img-responsive margin-bottom-30">
-
 					<p><span class="text-highlight">Rohini is a canine behaviourist, professional dog trainer and a clinical psychologist.</span></p>
+		
+        			<div class="row">
+                    	<div class="col-md-6">
+							<img src="images/about/about-Rohini.jpg" alt="Rohini Fernandes in a dog training session" class="img-responsive margin-bottom-30">
+                        </div>
 
-					<p>She has been working in this field of dog training since 2001. Rohini has worked with a wide variety of breeds and dealt with a variety of behaviour problems. From teaching toilet training, handling chewing issues, controlling aggression, working on dominance problems and destructive behaviours, she has trained dogs of all ages with her oldest dog client being 11 years old!</p>
+						<div class="col-md-6">
+							<p>Rohini has been working in the field of dog training since the year 2000. Rohini has worked with a wide variety of breeds and dealt with a all kinds of behaviour problems.</p>
+		
+        					<p>She has also trained and entered dogs for obedience shows held by the Indian National Kennel Club, and has won numerous prizes at these shows in obedience, performance and breed categories.</p>
+                        </div>                        
+                    </div>
 
-					<p>She has also trained and entered dogs for obedience shows held by the Indian National Kennel Club, and has won numerous prizes at these shows in obedience, performance and breed categories.</p>
+					<p>In 2005 Rohini founded Animal Angels Foundation (<a href="http://www.animalangelsfoundation.com" target="_blank">www.animalangelsfoundation.com</a>), an organisation that works with therapy dogs to help people. She is a certified practitioner of animal-assisted therapy from the University of North Texas and Pet Partners, USA. Her speciality is training therapy dogs that work with children with developmental disabilities and adults with mental illnesses.</p>
 
-					<p>In 2005 Rohini founded Animal Angels Foundation,(<a href="http://www.animalangelsfoundation.com" target="_blank">www.animalangelsfoundation.com</a>) an organisation that works with therapy dogs to help people. She is a certified practitioner of animal-assisted therapy from the University of North Texas and Pet Partners, USA. Her speciality is training therapy dogs that work with children with developmental disabilities and adults with mental illnesses.</p>
+					<p>One of her therapy dogs Simbaa became the first dog in India to be allowed to travel cabin class on flights as he was so well behaved! You can read more about Simba and his journey in <a target="_blank" href="http://timesofindia.indiatimes.com/india/Dogs-day-out-Airline-lets-pet-fly-with-autistic-master/articleshow/18772068.cms">this article</a> published in The Times of India</p>
 
-<p>Rohini now works with the Kryon Wisdom Centre where she facilitates workshops to teach people telepathic animal communication and animal reiki. If you would like to register for these workshops please visit <a href="http://www.wisdomcentre.co.in" target="_blank">www.wisdomcentre.co.in</a> or get in touch with Rohini on <a href="tel:+919820788703">9820788703</a>.</p>
+					<p>Rohini now works with the <b>Kryon Wisdom Centre</b> where she facilitates workshops with the Animal, Plant and Human Kingdom. To register for these workshops please visit <a href="https://www.wisdomcentre.co.in" target="_blank">www.wisdomcentre.co.in</a> or email us at <a href = "mailto:wisdomcentre.co.in@gmail.com">wisdomcentre.co.in@gmail.com</a>.</p>
+                    
+                    <p> The Kryon Wisdom Centre runs <a target="_blank" href="https://www.wisdomcentre.co.in/the-house-of-pawz-a-cage-less-pet-boarding-day-care-centre/"><b>House of Paws</b></a> which consists of our Dog Training Centre and a  Spacious and Cageless Boarding place for Pets.</p>
+                    
+                    <p>Here we train pet parents to train their own dogs. Once the families learn the training techniques, they get the confidence to take their dogs everywhere and give them off-leash freedom. To know more about our training services, please visit <a target="_blank" href="https://www.wisdomcentre.co.in/canine-training-services">www.wisdomcentre.co.in/canine-training-services</a></p>
 
-
-					<div class="row">
-						<div class="col-md-4">
-							<img src="images/about-profile-small.jpg" alt="Cat" class="img-responsive margin-bottom-30">
-						</div>
-
-						<div class="col-md-8">
-							<p>One of her therapy dogs Simbaa became the first dog in India to be allowed to travel in cabin class on flight as he was so well behaved! You can read more about Simba and his journey on <a href="http://timesofindia.indiatimes.com/india/Dogs-day-out-Airline-lets-pet-fly-with-autistic-master/articleshow/18772068.cms" target="_blank">http://timesofindia.indiatimes.com/india/Dogs-day-out-Airline-lets-pet-fly-with-autistic-master/articleshow/18772068.cms</a></p>
-						</div>
-					</div>
-
-					<p>Rohini began training pet parents to train their own dogs when she realised that the dogs would respond better to the trainer than the family. She teaches pet parents the training techniques so that they can be their dog’s trainer and handle him anywhere.</p>
+					<p>The Kryon Wisdom Centre also teaches the <b>Canine Training & Communication Course</b> for people who would like to learn how to train and work with dogs. For more information on this visit <a target = "_blank" href = "https://www.wisdomcentre.co.in/canine-training-and-communication-course">www.wisdomcentre.co.in/canine-training-and-communication-course</a></p>.
 				</article>
 
 				<!-- =========================
@@ -124,15 +129,15 @@
 				<!-- =========================
 				     WHY TRAIN
 				============================== -->
-				<article>
+				<!-- article>
 					<h3 class="title-text">Why train your pet?<hr class="yellow-line"></h3>
 
 					<p>Your dog is going to live with you for the next 12-15 years so you need to be able to control him anytime, anywhere. What better way to do that than to become your pet’s trainer! In my training sessions I teach you how to become your dog’s trainer so that next time you take him to a new place like a beach, park or even a friend’s house you can handle your dog and trust him enough to respond to your commands even when he is off leash.</p>
 
-					<img src="images/about-why-train-pet.jpg" alt="Why train your pet?" class="img-responsive margin-bottom-30">
+					<img src="images/about/about-why-train-pet.jpg" alt="Why train your pet?" class="img-responsive margin-bottom-30">
 
 					<p>Besides regular obedience training you will learn to give him commands like not running out of open doors or gates, not going to people or animals who might not like him, not being a noisy barker and responding immediately when you give him a command instead of repeating it over and over again.</p>
-				</article>
+				</article -->
 
 			</div> <!-- end of /.col-md-8 -->
 
@@ -199,7 +204,6 @@
 		</div>
 	</div>
 </div>
-
 
 
 <!-- =========================
@@ -301,65 +305,6 @@ include($_SERVER['DOCUMENT_ROOT'] . "/common/blogs.php");
 		</div><!-- /.contact-form -->
 	</div>
 </section>
-
-
-
-<!-- =========================
-     ADDRESS  -MAP
-============================== -->
-<div class="address-map" role="tabpanel">
-	<div class="container">
-		<div class="row" id="address-map-tab" role="tablist">
-			<div class="address col-md-offset-3 col-md-3 col-xs-offset-0 col-xs-6">
-				<a href="#address-block" aria-controls="address-block" role="tab" data-toggle="tab">
-					<i class="icon-paper-plane"></i>
-					<h4 class="title-text text-capitalize">Contact Details</h4>
-				</a>
-			</div>
-
-			<div class="map col-md-3 col-xs-6">
-				<a href="#map-block" aria-controls="map-block" role="tab" data-toggle="tab">
-					<i class="icon-pin-map"></i>
-					<h4 class="title-text text-capitalize">Map</h4>
-				</a>
-			</div>
-		</div>
-	</div>
-
-	<div class="tab-content">
-		<div class="address-block tab-pane fade in active" id="address-block" role="tabpanel">
-			<div class="container">
-				<div class="row">
-					<div class="row-item col-md-3">
-						<i class="icon-phone-mobile"></i>
-						<p>Phone : <strong> +91 98 207 88703</strong></p>
-					</div>
-
-					<div class="row-item col-md-3">
-						<a href="mailto:rohiniishira@gmail.com" target="_blank"><i class="icon-email-envelope"></i><span>rohiniishira@gmail.com</span></a>
-					</div>
-
-					<div class="row-item col-md-3">
-						<a href="https://www.facebook.com/RohiniFernandesDogTraining" target="_blank"><i class="icon-facebook"></i><span>Rohini Fernandes Dog Training</span></a>
-					</div>
-
-					<div class="row-item col-md-3">
-						<i class="icon-pin-map"></i>
-						<address>
-							<p>Prerna 11, Military Road,</p>
-							<p>Marol, Andheri East,</p>
-							<p>Mumbai 400 059, India</p>
-						</address>
-					</div>
-				</div>
-			</div>
-		</div><!-- /.address-block -->
-
-		<div class="map-block tab-pane fade" id="map-block" role="tabpanel">
-
-		</div><!-- /.address-block -->
-	</div> <!-- /.tab-content -->
-</div>
 
 <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/footers.php"); ?>
 

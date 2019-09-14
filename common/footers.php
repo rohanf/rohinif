@@ -1,4 +1,69 @@
 <!-- =========================
+     ADDRESS  -MAP
+============================== -->
+<div class="address-map" role="tabpanel">
+	<div class="container">
+		<div class="row" id="address-map-tab" role="tablist">
+			<div class="address col-md-offset-3 col-md-3 col-xs-offset-0 col-xs-6">
+				<a href="#address-block" aria-controls="address-block" role="tab" data-toggle="tab">
+					<i class="icon-paper-plane"></i>
+					<h4 class="title-text text-capitalize">Contact Details</h4>
+				</a>
+			</div>
+
+			<div class="map col-md-3 col-xs-6">
+				<a href="#map-block" aria-controls="map-block" role="tab" data-toggle="tab">
+					<i class="icon-pin-map"></i>
+					<h4 class="title-text text-capitalize">Map</h4>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="tab-content">
+		<div class="address-block tab-pane fade in active" id="address-block" role="tabpanel">
+			<div class="container">
+				<div class="row">
+					<div class="row-item col-md-3">
+						<i class="icon-phone-mobile"></i>
+						<p>Phone : <strong> +91 98 207 88703</strong></p>
+						<p>Phone : <strong> +91 99 300 04925</strong></p>
+					</div>
+
+					<div class="row-item col-md-3">
+						<a href="mailto:wisdomcentre.co.in@gmail.com" target="_blank"><i class="icon-email-envelope"></i><span>wisdomcentre.co.in@gmail.com</span></a>
+					</div>
+
+					<div class="row-item col-md-3">
+						<a href="https://www.facebook.com/RohiniFernandesDogTraining" target="_blank"><i class="icon-facebook"></i><span>Rohini Fernandes Dog Training</span></a>
+                        <a href="https://www.facebook.com/wisdomcentrekryon" target="_blank"><span>Kryon Wisdom Centre</span></a>
+                        <a href="https://www.facebook.com/thehouseofpawz" target="_blank"><span>The House of Pawz</span></a>
+					</div>
+
+					<div class="row-item col-md-3">
+                        <a href="https://www.instagram.com/kryon.wisdomcentre" target="_blank"><i class="icon-instagram"></i><span>Kryon Wisdom Centre</span></a>
+                        <a href="https://www.instagram.com/thehouseofpawz" target="_blank"><span>The House of Pawz</span></a>
+					</div>
+                    
+					<!-- div class="row-item col-md-3">
+						<i class="icon-pin-map"></i>
+						<address>
+							<p>Prerna 11, Military Road,</p>
+							<p>Marol, Andheri East,</p>
+							<p>Mumbai 400 059, India</p>
+						</address>
+					</div-->
+				</div>
+			</div>
+		</div><!-- /.address-block -->
+
+		<div class="map-block tab-pane fade" id="map-block" role="tabpanel">
+
+		</div><!-- /.address-block -->
+	</div> <!-- /.tab-content -->
+</div>
+
+<!-- =========================
      FOOTER
 ============================== -->
 <footer class="footer">
