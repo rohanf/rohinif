@@ -35,8 +35,7 @@
 					</div>
 
 					<div class="row-item col-md-3">
-						<a href="https://www.facebook.com/RohiniFernandesDogTraining" target="_blank"><i class="icon-facebook"></i><span>Rohini Fernandes Dog Training</span></a>
-                        <a href="https://www.facebook.com/wisdomcentrekryon" target="_blank"><span>Kryon Wisdom Centre</span></a>
+                        <a href="https://www.facebook.com/wisdomcentrekryon" target="_blank"><i class="icon-facebook"></i><span>Kryon Wisdom Centre</span></a>
                         <a href="https://www.facebook.com/thehouseofpawz" target="_blank"><span>The House of Pawz</span></a>
 					</div>
 
@@ -52,13 +51,15 @@
 							<p>Marol, Andheri East,</p>
 							<p>Mumbai 400 059, India</p>
 						</address>
-					</div-->
+					</div -->
 				</div>
 			</div>
 		</div><!-- /.address-block -->
 
 		<div class="map-block tab-pane fade" id="map-block" role="tabpanel">
-
+			<center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3769.4271914599517!2d72.8141193!3d19.132769!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b61b31729b6b%3A0x9f4d47fe8c0a4c57!2sThe%20House%20Of%20Pawz!5e0!3m2!1sen!2sus!4v1568587559802!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</center>
 		</div><!-- /.address-block -->
 	</div> <!-- /.tab-content -->
 </div>
@@ -133,7 +134,7 @@
 
 
 <!-- GOOGLE MAP API -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpsa0dCe3KnM6wYXmIYPPhvrzWcNVJcxI&amp;sensor=true"></script>
+<!-- script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpsa0dCe3KnM6wYXmIYPPhvrzWcNVJcxI&amp;sensor=true"></script>
 
 <script type="text/javascript">
 
@@ -151,7 +152,7 @@
 			scrollwheel: false,
 
 			// The latitude and longitude to center the map (always required)
-			center: new google.maps.LatLng(19.1193154, 72.8869585), // Animal Angels Foundation
+			center: new google.maps.LatLng(19.132769, 72.816308), // The House of Pawz
 
 			// How you would like to style the map.
 			// This is where you would paste any style found on Snazzy Maps.
@@ -167,16 +168,17 @@
 
 		// Let's also add a marker while we're at it
 		var marker = new google.maps.Marker({
-			position: new google.maps.LatLng(19.1193154, 72.8869585),
+			position: new google.maps.LatLng(19.132769, 72.816308),
 			map: map,
-			title: 'Anima!'
+			title: 'The House of Pawz',
+			directions: ''
 		});
 	}
 
 	$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 		initialize();
 	});
-</script>
+</script -->
 
 <script>
 	new WOW().init();

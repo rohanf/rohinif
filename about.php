@@ -95,12 +95,10 @@
 
 						<div class="col-md-6">
 							<p>Rohini has been working in the field of dog training since the year 2000. Rohini has worked with a wide variety of breeds and dealt with a all kinds of behaviour problems.</p>
-		
-        					<p>She has also trained and entered dogs for obedience shows held by the Indian National Kennel Club, and has won numerous prizes at these shows in obedience, performance and breed categories.</p>
+                            
+							<p>In 2005 Rohini founded Animal Angels Foundation (<a href="http://www.animalangelsfoundation.com" target="_blank">www.animalangelsfoundation.com</a>), an organisation that works with therapy dogs to help people. She is a certified practitioner of animal-assisted therapy from the University of North Texas and Pet Partners, USA. Her speciality is training therapy dogs that work with children with developmental disabilities and adults with mental illnesses.</p>
                         </div>                        
                     </div>
-
-					<p>In 2005 Rohini founded Animal Angels Foundation (<a href="http://www.animalangelsfoundation.com" target="_blank">www.animalangelsfoundation.com</a>), an organisation that works with therapy dogs to help people. She is a certified practitioner of animal-assisted therapy from the University of North Texas and Pet Partners, USA. Her speciality is training therapy dogs that work with children with developmental disabilities and adults with mental illnesses.</p>
 
 					<p>One of her therapy dogs Simbaa became the first dog in India to be allowed to travel cabin class on flights as he was so well behaved! You can read more about Simba and his journey in <a target="_blank" href="http://timesofindia.indiatimes.com/india/Dogs-day-out-Airline-lets-pet-fly-with-autistic-master/articleshow/18772068.cms">this article</a> published in The Times of India</p>
 

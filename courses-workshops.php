@@ -120,7 +120,7 @@
 
                     <p>Please refer to the flyer below for details</p>
                     
-                    <img src="images/flyers/Canine Training Course.png" alt="Dog Training Flyer" class="img-responsive margin-bottom-30">
+                    <img src="images/flyers/Canine Training Course.jpg" alt="Dog Training Flyer" class="img-responsive margin-bottom-30">
 
 					<p><span class="text-highlight">Participant's Feedback</span></p>
                     
@@ -137,7 +137,7 @@ of course, start this professionally in future! Thank you!"</i></p>
 
                     <hr/>
 
-					<p>For further information please visit <a href="http://www.wisdomcentre.co.in" target="_blank">http://www.wisdomcentre.co.in</a></p>
+					<p>For further information please visit <a href="https://www.wisdomcentre.co.in" target="_blank">https://www.wisdomcentre.co.in</a></p>
                     
                     <?php include($_SERVER['DOCUMENT_ROOT'] . "/common/payment_details.php"); ?>
                     
@@ -161,7 +161,7 @@ of course, start this professionally in future! Thank you!"</i></p>
 
                     <hr/>
 
-					<p>For further information please visit <a href="http://www.wisdomcentre.co.in" target="_blank">http://www.wisdomcentre.co.in</a></p>
+					<p>For further information please visit <a href="https://www.wisdomcentre.co.in" target="_blank">https://www.wisdomcentre.co.in</a></p>
                     
 					<p>Animal and Plants can live without Human beings. Human Beings Cannot live without them. Animals and Plants are our Providers. Join to make a difference.</p>
                     
