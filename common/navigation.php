@@ -18,7 +18,7 @@
 					<li class="mob"><a href="tel:+919820788703">98207 88703</a></li>
 					<li class="mob"><a href="tel:+919930004925">99300 04925</a></li>
 					<li class="email"><a href="mailto:wisdomcentre.co.in@gmail.com" target="_blank">wisdomcentre.co.in@gmail.com</a></li>
-					<li class="facebook"><a href="https://www.facebook.com/thehouseofpawz" target="_blank"><i class="icon-facebook"></i></a></li>
+					<!-- li class="facebook"><a href="https://www.facebook.com/thehouseofpawz" target="_blank"><i class="icon-facebook"></i></a></li -->
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
